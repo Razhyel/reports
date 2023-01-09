@@ -1,0 +1,752 @@
+1               0001  ATIVO                                                                                            33524,50                
+11              0002  ATIVO CIRCULANTE                                                                                 33524,50                
+111             0003  DISPONIVEL                                                                                       31024,50                
+11101           0004  CAIXA                                                                                            30876,98                
+111010001       0005  CAIXA FAZENDA                                                                                        0,00                
+111010002       0068  CAIXA GIN                                                                                            0,00                
+111010003       0082  CAIXA GERAL                                                                                      30876,98                
+11102           0008  BANCO CONTA CORRENTE                                                                               147,52                
+111020001       0009  BANCO BRASIL C/C 15975-1 - FAZ                                                                       0,00                
+111020002       0057  BANCO BRADESCO                                                                                     147,52                
+111020003       0065  BANCO BRASIL C/C 17390-8 - GIN                                                                       0,00                
+112             0075  APLICAÄÂES                                                                                           0,00                
+11201           0076  BANCO CONTA APLICACAO                                                                                0,00                
+112010001       0077  BANCO DO BRASIL C/A - FAZ                                                                            0,00                
+112010003       0066  BANCO DO BRASIL C/A - GIN                                                                            0,00                
+112010004       0695  AGROSUL MAQUINAS LTDA C/A                                                                            0,00                
+112010005       0703  TYLER - GLOBAL                                                                                       0,00                
+112010006       0704  BANCO DO BRASIL C/A -FAZ 2                                                                           0,00                
+112010007       000746BANCO HSBC C/A                                                                                       0,00                
+112010008       0768  BANCO DO BRASIL C/A - FAZ - AUTOMATICA                                                               0,00                
+11202           0543  PARTES RELACIONADAS ATIVA                                                                            0,00                
+112020002       0545  JOSEPH FRANCIS CONNOR C/A                                                                            0,00                
+112020003       0546  CARROL FARMS BRASIL LTDA C/A                                                                         0,00                
+112020004       0547  HERTZ BRAZIL FARM LTDA C/A                                                                           0,00                
+112020005       0548  AGROPECUARIA CHAPADA VERDE LTDA C/A                                                                  0,00                
+112020006       0549  AGROPECUARIA POMBERG LTDA C/A                                                                        0,00                
+112020007       0559  CARTHAGE BRASIL FARMS LTDA C/A                                                                       0,00                
+112020008       0560  CARROLL LLC FARMS C/A                                                                                0,00                
+112020009       0679  JOHN DANIEL CARROLL - GIN C/A                                                                        0,00                
+112020010       0051  JOHN DANIEL CARROLL - EUA C/A                                                                        0,00                
+112020011       0235  HENDRIX BRASIL FARMS C/A                                                                             0,00                
+112020012       0778  AGROSERVICE COMERCIAL AGRICOLA E SERVIÄOS LTDA                                                       0,00                
+113             0084  REALIZAVEL A CURTO PRAZO                                                                          2500,00                
+11301           0085  EMPRESTIMOS                                                                                       2500,00                
+113010001       0086  EMPRESTIMOS A TERCEIROS                                                                              0,00                
+113010002       0087  EMPRESTIMOS A FUNCIONARIOS                                                                        2500,00                
+11302           0088  ADIANTAMENTO FORNECEDORES                                                                            0,00                
+113020002       0090  A-F BAYER S/A                                                                                        0,00                
+113020003       0091  A-F SYNGENTA S/A                                                                                     0,00                
+113020004       0092  A-F MDM SEMENTES S/A                                                                                 0,00                
+113020005       0093  A-F DU PONT DO BRASIL S/A                                                                            0,00                
+113020006       0094  A-F IHARABRAS S/A                                                                                    0,00                
+113020007       0095  A-F EMBRATEL                                                                                         0,00                
+113020008       0096  A-F INTELIG TELECOM                                                                                  0,00                
+113020009       0097  A-F PEDRO IVAM MILHOMEM                                                                              0,00                
+113020010       0098  A-F VPS PROD AGRI LTDA                                                                               0,00                
+113020011       0099  A-F ALBINO FALKOWSKI                                                                                 0,00                
+113020012       0100  A-F THIAGO S QUINTEIRO                                                                               0,00                
+113020013       0101  A-F HIDRAUMASTER SISTEMAS HIDR                                                                       0,00                
+113020014       0329  A-F AGROSUL MAQUINAS AGRICOLAS LTDA                                                                  0,00                
+113020015       0330  A-F SYNAGRO COMERCIAL AGRICOLA LTDA                                                                  0,00                
+113020016       0331  A-F BUNGE FERTILIZANTES S/A                                                                          0,00                
+113020017       0332  A-F GALVANI FERTILIZANTES S/A                                                                        0,00                
+113020018       0333  A-F FMC QUIMICA DO BRASIL LTDA                                                                       0,00                
+113020019       0334  A-F IND QUIMICA KIMBERTIT LTDA                                                                       0,00                
+113020020       0335  A-F TEC CONTROL IND COM PROD AGROP LTDA                                                              0,00                
+113020021       0336  A-F HOKKO DO BRASIL IND QUI LTDA                                                                     0,00                
+113020022       0337  A-F BRITACAL IND COM BRITA CALC BRA LTDA                                                             0,00                
+113020023       0338  A-F CARGIL FERTILIZANTES S/A                                                                         0,00                
+113020024       0339  A -F JOHN KUDIES                                                                                     0,00                
+113020025       0340  A-F UBS COTTON LTDA - BENEFTO                                                                        0,00                
+113020026       0341  A-F AGROSERVICE COMERCIAL AGRICOLA LTDA                                                              0,00                
+113020027       0342  A-F BASF S/A                                                                                         0,00                
+113020028       0343  A-F AGRIPEC QUIMICA E FARM LTDA                                                                      0,00                
+113020029       0344  A-F PIONNER SEMENTES S/A                                                                             0,00                
+113020030       0345  A-F MOSAIC FERTILIZANTES S/A                                                                         0,00                
+113020031       0346  A-F MATTOS FILHO ADVOCACIA                                                                           0,00                
+113020032       0347  A-F GAGLIARDI CIA LTDA                                                                               0,00                
+113020033       0348  A-F OESTE EMPRESA DE SEGURANÄA LTDA                                                                  0,00                
+113020034       0349  A-F YARA BRASIL FERTILIZANTES S/A                                                                    0,00                
+113020035       0350  A-F AGROPLANTA IND QUIMICAS LTDA                                                                     0,00                
+113020036       0351  A-F BBC CONSULTORIA LTDA                                                                             0,00                
+113020037       0352  A-F FERTILIZANTES HERINGER LTDA                                                                      0,00                
+113020038       0353  A-F SEMEAR COM AGRICOLA LTDA                                                                         0,00                
+113020039       0354  A-F NORTOX S/A                                                                                       0,00                
+113020040       0355  A-F MONSANTO                                                                                         0,00                
+113020041       0356  A-F COPROESTE                                                                                        0,00                
+113020042       0357  A-F SAN DIAS CORRETORA                                                                               0,00                
+113020043       0358  A-F EBDA EMPRESA BA DESENV AGROP                                                                     0,00                
+113020044       0359  A-F UNICOT COMERCIAL LTDA                                                                            0,00                
+113020045       0569  A-F NUTRIFERTIL                                                                                      0,00                
+113020046       0236  A-F SOLUTTA LTDA                                                                                     0,00                
+113020047       0237  A-F CCS CAMINHOES COM SER LTDA                                                                       0,00                
+113020048       0542  A-F LAVROBRAS COM REPR AGRIC LTDA                                                                    0,00                
+113020049       0544  A-F CARROLL FAMRS LLC                                                                                0,00                
+113020050       0741  A-F FRANCISO TEIXEIRA                                                                                0,00                
+113020051       0744  A-F MARINE AIR                                                                                       0,00                
+113020052       0753  A-F ENGEON                                                                                           0,00                
+11303           0680  DESPESAS PAGAS ANTECIPADAMENTE                                                                       0,00                
+113030001       0681  DESPESAS PAGAS ANTECIPADAMENTE - PLANO DE SAUDE                                                      0,00                
+113030002       0081  DESPESAS PAGAS ANTECIPADAMENTE - CELULAR                                                             0,00                
+11304           0024  ADIANTAMENTO A FUNCIONARIOS                                                                          0,00                
+113040001       0025  ADIANTAMENTO SALARIAL                                                                                0,00                
+113040002       0037  ADIANTAMENTO DE FêRIAS                                                                               0,00                
+113040003       0775  ADIANTAMENTO 13¶ SALARIO                                                                             0,00                
+11306           0102  CLIENTES                                                                                             0,00                
+113060001       0103  CARGIL ALIMENTOS S/A                                                                                 0,00                
+113060002       0104  BUNGE ALIMENTOS S/A                                                                                  0,00                
+113060003       0105  MULTIGRAIN S/A                                                                                       0,00                
+113060004       0106  LOUIS DRAYFUS S/A                                                                                    0,00                
+113060005       0107  COPROESTE COOP PROD OESTE DA BAHIA LTDA                                                              0,00                
+113060006       0325  COTECE                                                                                               0,00                
+113060007       0326  BIAL BONFIM                                                                                          0,00                
+113060008       0360  GOLDEM CARGO LTDA                                                                                    0,00                
+113060009       0361  SERVICOM SERV COM EXTERIOR LTDA                                                                      0,00                
+113060010       0362  AGROPECUARIA ANGICO BRANCO                                                                           0,00                
+113060011       0363  SIGNIA COMERCIAL EXP LTDA                                                                            0,00                
+113060012       0364  JOSE IVAN GUIMARAES CAVALCANTE                                                                       0,00                
+113060013       0365  GILTON CESAR MOTA SANTOS                                                                             0,00                
+113060014       0366  JOSE RIVALDO SANTANA                                                                                 0,00                
+113060015       0367  JOSE ADAUTO NEVES DA MOTA                                                                            0,00                
+113060016       0368  MANOEL RODRIGUES NETO                                                                                0,00                
+113060017       0369  EDILÄO DE ALMEIDA                                                                                    0,00                
+113060018       0370  PAULO ALVES DE ARAUJO                                                                                0,00                
+113060019       0371  GOIAS SOJA COMERCIAL AGRICOLA LTDA                                                                   0,00                
+113060020       0372  AGROVITA TRANSP COM REP LTDA                                                                         0,00                
+113060021       0373  THOM CIA LTDA                                                                                        0,00                
+113060022       0374  GOLDEN CARGO TRANP LOGISTICA LTDA                                                                    0,00                
+113060023       0375  PMG TRADING S/A                                                                                      0,00                
+113060024       0376  UNITEXTIL UNI IND TEXTIL LTDA                                                                        0,00                
+113060025       0377  ALGODOEIRA IPANEMA                                                                                   0,00                
+113060026       0378  FIOTEX INDUSTRIAL S/A                                                                                0,00                
+113060027       0379  COOPAC COOP PROD ALG CERRADO LTDA                                                                    0,00                
+113060028       0380  AGRIPEC QUIMICA FARMACEUTICA S/A                                                                     0,00                
+113060029       0381  ARARIPI TEXTIL S/A ARTESA                                                                            0,00                
+113060030       0382  BRASTIX TEXTIL                                                                                       0,00                
+113060031       0383  TEXTIL INDUSTRIAL S/A                                                                                0,00                
+113060032       0384  VICUNHA TEXTIL S/A                                                                                   0,00                
+113060033       0385  FIACAO ALPINA NORDESTE                                                                               0,00                
+113060034       0386  JOSE ROBERTO MARINHO                                                                                 0,00                
+113060035       0387  JOSE CARLOS ALVES ROSA                                                                               0,00                
+113060036       0388  NORFIL S/A INDUSTRIA TEXTIL                                                                          0,00                
+113060037       0389  WHITE COTTON COMERCIO TEXTIL LTDA                                                                    0,00                
+113060038       0390  FABRICA DA PEDRA S/A FIACAO E TECELAGEM                                                              0,00                
+113060039       0391  ALGODOEIRA COTTON MAX LTDA                                                                           0,00                
+113060040       0392  ESMAR CAETANO DO CARMO                                                                               0,00                
+113060041       0393  JOSIAS JOSE DOS SANTOS                                                                               0,00                
+113060042       0394  BENEDITO APARECIDO DE SOUZA                                                                          0,00                
+113060043       0395  JOAQUIM FIDELCINO MARTINS                                                                            0,00                
+113060044       0396  AGROPECUARIA DELA VISTA LTDA                                                                         0,00                
+113060045       0397  MIGUEL DANTAS                                                                                        0,00                
+113060046       0398  MENDONÄA PATRIMONIAL S/A                                                                             0,00                
+113060047       0399  EDSON CAETANO DO CARMO                                                                               0,00                
+113060048       0400  JOSE MARCELO VASCONCELOS SILVA                                                                       0,00                
+113060049       0401  MARIA PINTO CORREIA DE QUIROZ                                                                        0,00                
+113060050       0402  JOSE FONSECA IRMAO                                                                                   0,00                
+113060051       0403  RD COMERCIAL DE ALIMENTOS RACOES LTDA                                                                0,00                
+113060052       0405  OTS COTTON LTDA                                                                                      0,00                
+113060053       0404  LUIZ FERNANDO DE SOUZA                                                                               0,00                
+113060054       0406  PEDRO GONCALVES MARTINS                                                                              0,00                
+113060055       0407  VAILSON AMARAL DOS SANTOS                                                                            0,00                
+113060056       0408  ISRAEL MEIRA CAMPOS                                                                                  0,00                
+113060057       0409  CAROLINO JESUS DOS SANTOS                                                                            0,00                
+113060058       0410  AGROPECUARIA NOVA AURORA LTDA                                                                        0,00                
+113060059       0411  SERRANA TEXTIL S/A                                                                                   0,00                
+113060060       0412  COOP AGROINDUSTRIAL PROD R RONDON‡POLIS                                                              0,00                
+113060061       0413  FINORTE S/A INDUSTRIA TEXTIL                                                                         0,00                
+113060062       0414  SERGIFIL INDUSTRIA TEXTIL LTDA                                                                       0,00                
+113060063       0415  DUARTE E BRASIL LTDA                                                                                 0,00                
+113060064       0538  ADM DO BRASIL LTDA                                                                                   0,00                
+113060065       0540  MULTICOTTON USA, INC                                                                                 0,00                
+113060066       0541  JOSE NIVALDO DE ANDRADE                                                                              0,00                
+113060067       0565  COOP DOS PROD DE ALG VALE DO IUIU LTDA                                                               0,00                
+113060068       0573  OLAN INTERNATIONAL LIMITED                                                                           0,00                
+113060069       0574  EISA EMPRESA INTERAGRICOLA SA                                                                        0,00                
+113060070       0596  DUNAVANT ENTERPRISES INC                                                                             0,00                
+113060071       0665  MULTIGRAIN AG                                                                                        0,00                
+113060072       0020  JEISA PEREIRA DA SILVA                                                                               0,00                
+113060073       0021  COTEMINAS SA                                                                                         0,00                
+113060074       0022  ICOL IND E COM DE OLEOS VEGETAIS LTDA                                                                0,00                
+113060075       0754  LIBERO                                                                                               0,00                
+113060076       0757  ANTONIO MALHADAS DE PEDRAS                                                                           0,00                
+11307           0108  IMPOSTOS RECUPERµVEIS                                                                                0,00                
+113070001       0109  ICMS A RECUPERAR                                                                                     0,00                
+113070002       0110  ICMS CIAP A RECUPERAR                                                                                0,00                
+113070003       0111  PIS A RECUPERAR                                                                                      0,00                
+113070004       0112  COFINS A RECUPERAR                                                                                   0,00                
+113070005       0113  CSLL A RECUPERAR                                                                                     0,00                
+113070006       0114  IRPJ A RECUPERAR                                                                                     0,00                
+113070007       0115  INSS A RECUPERAR                                                                                     0,00                
+113070008       0591  IMPOSTOS FEDERAIS A RECUPERAR                                                                        0,00                
+11308           000743                                                                                                     0,00                
+114             0116  ESTOQUE                                                                                              0,00                
+11401           0117  ESTOQUE EM PODER DE TERCEIROS                                                                        0,00                
+11402           0118  ESTOQUE RECEBIDO EM DEMONSTRAÄ«O                                                                     0,00                
+114020001       0666  ESTOQUE EM ANALISE DE GARANTIA                                                                       0,00                
+11403           0119  ESTOQUE PRODUTO ACABADO                                                                              0,00                
+114030001       0121  ESTOQUE SOJA                                                                                         0,00                
+114030002       0122  ESTOQUE MILHO                                                                                        0,00                
+114030003       0123  ESTOQUE ALGODAO                                                                                      0,00                
+114030004       0124  ESTOQUE CAROÄO ALGODAO                                                                               0,00                
+115             0125  ESTOQUE EM FORMAÄ«O                                                                                  0,00                
+11501           0126  ESTOQUE DE ALGODAO EM FORMACAO                                                                       0,00                
+115010001       0127  SEMENTE - ALGOD«O                                                                                    0,00                
+115010002       0128  FERTILIZANTE - ALGOD«O                                                                               0,00                
+115010003       0129  QUIMICOS - ALGOD«O                                                                                   0,00                
+115010004       0130  COMBUSTIVEL - ALGOD«O                                                                                0,00                
+115010005       0131  MNT MAQ EQP - ALGOD«O                                                                                0,00                
+115010006       0132  MAT CONSUMO - ALGOD«O                                                                                0,00                
+115010007       0133  SERVIÄOS - ALGOD«O                                                                                   0,00                
+11502           0134  ESTOQUE DE SOJA EM FORMAÄ«O                                                                          0,00                
+115020001       0135  SEMENTE - SOJA                                                                                       0,00                
+115020002       0136  FERTILIZANTE - SOJA                                                                                  0,00                
+115020003       0137  QUIMICOS - SOJA                                                                                      0,00                
+115020004       0138  COMBUSTIVEL - SOJA                                                                                   0,00                
+115020005       0139  MNT MAQ EQP - SOJA                                                                                   0,00                
+115020006       0140  MAT CONSUMO - SOJA                                                                                   0,00                
+115020007       0141  SERVIÄOS - SOJA                                                                                      0,00                
+11503           0142  ESTOQUE DE MILHO EM FORMAÄ«O                                                                         0,00                
+115030001       0143  SEMENTE - MILHO                                                                                      0,00                
+115030002       0144  FERTILIZANTE - MILHO                                                                                 0,00                
+115030003       0145  QUIMICOS - MILHO                                                                                     0,00                
+115030004       0146  COMBUSTIVEL - MILHO                                                                                  0,00                
+115030005       0147  MNT MAQ EQP - MILHO                                                                                  0,00                
+115030006       0148  MAT CONSUMO - MILHO                                                                                  0,00                
+115030007       0149  SERVIÄOS - MILHO                                                                                     0,00                
+11504           0058  ESTOQUE AMENDOIM EM FORMAÄ«O                                                                         0,00                
+115040001       0059  SEMENTE - AMENDOIM                                                                                   0,00                
+115040002       0060  FERTILIZANTE - AMENDOIM                                                                              0,00                
+115040003       0061  QUIMICOS - AMENDOIM                                                                                  0,00                
+115040005       0062  COMBUSTIVEL - AMENDOIM                                                                               0,00                
+115040006       0063  MAT CONSUMO - AMENDOIM                                                                               0,00                
+115040007       0064  SERVIÄOS - AMENDOIM                                                                                  0,00                
+12              0150  ATIVO N«O CIRCULANTE                                                                                 0,00                
+121             0151  INVESTIMENTOS                                                                                        0,00                
+12101           0152  PARTICIPAÄ«O EM OUTRAS EMPRESAS                                                                      0,00                
+121010001       0717  OUROCAP 310991                                                                                       0,00                
+121010002       0718  OUROCAP 369932                                                                                       0,00                
+121010003       0719  OUROCAP 310990                                                                                       0,00                
+121010004       0742  OUROCAP 425445                                                                                       0,00                
+121010005       0760  OUROCAP 350444                                                                                       0,00                
+121010006       0761  OUROCAP 276738                                                                                       0,00                
+121010007       0770  OUROCAP 403160                                                                                       0,00                
+122             0153  IMOBILIZADO                                                                                          0,00                
+12201           0154  PROPRIEDADES RURAIS E URBANAS                                                                        0,00                
+122010001       0601  FAZENDA CARROLL FARMS I 43 ha                                                                        0,00                
+122010002       0602  FAZENDA CARROLL FARMS II 300 ha                                                                      0,00                
+122010003       0603  FAZENDA CARROLL FARMS III 300 ha                                                                     0,00                
+122010004       0604  FAZENDA CARROLL FARMS IV 300 ha                                                                      0,00                
+122010005       0605  FAZENDA CARROLL FARMS V 400 ha                                                                       0,00                
+122010006       0606  FAZENDA CARROLL FARMS VI 400 ha                                                                      0,00                
+122010007       0607  FAZENDA CARROLL FARMS VII 400 ha                                                                     0,00                
+122010008       0608  FAZENDA CARROLL FARMS 600 ha                                                                         0,00                
+122010009       0609  FAZENDA HORINZONTINA 1.375 ha                                                                        0,00                
+122010010       0610  FAZENDA CARROLL VIII 50 ha                                                                           0,00                
+122010011       0611  FAZENDA CARROLL FARMS XV 86 ha                                                                       0,00                
+12202           0155  MAQUINAS E EQUIPAMENTOS                                                                              0,00                
+122020001       0612  SUBSOLADOR STARA 9Hx3 - 09/04/2003                                                                   0,00                
+122020002       0613  SUBSOLADOR JUMBO 7H - 25/04/2003                                                                     0,00                
+122020003       0614  CULTIVADOR PICCIN 10/10-B - 11/09/2003                                                               0,00                
+122020004       0615  TRATOR JD 6600 - 30/10/2002                                                                          0,00                
+122020005       0616  TRATOR JD 7505-B - 12/03/2003                                                                        0,00                
+122020006       0617  CONJ HIDR PA JD 7500 - 12/03/2003                                                                    0,00                
+122020007       0618  GRADE ARADORA TATU 22x28                                                                             0,00                
+122020008       0619  COLHEITADEIRA ALG JD 9986-A - 29/05/2004                                                             0,00                
+122020009       0620  SISTEMA TELEFONIA RURAL                                                                              0,00                
+122020010       0621  ENFARDADEIRA ALGODAO MONTANI                                                                         0,00                
+122020011       0622  CARRETA TRASLADO MANTOVANI                                                                           0,00                
+122020012       0623  TRITURADOR AGRICOLA JAN                                                                              0,00                
+122020013       0624  RETROESCAVADEIRA                                                                                     0,00                
+122020014       0625  GRADE ARADORA 22x26 - 08/2004                                                                        0,00                
+122020015       0626  GRADE ARADORA S 0499 - 08/2004                                                                       0,00                
+122020016       0627  CARRETA TRASBORDO MANTOVANI                                                                          0,00                
+122020017       0628  EXAUSTOR EOLICO MOD 870 BA                                                                           0,00                
+122020018       0629  TRATOR JOHN DEERE - 03/2005                                                                          0,00                
+122020019       0630  COLHEITADEIRA ALG JD 9986-B - 10/05/2005                                                             0,00                
+122020020       0631  COLHEITADEIRA ALG JD 9986-C - 10/05/2005                                                             0,00                
+122020021       0635  GRADE NIVEL PICCIN 120x22 - 10/02/2005                                                               0,00                
+122020022       0633  DISTRIB FERT/CALC LANCER JAN - 22/02/2005                                                            0,00                
+122020023       0634  MATABROTO MBA-6F IKEDA - 01/09/2005                                                                  0,00                
+122020024       0636  TRATOR JD 4x2 - 25/11/2006                                                                           0,00                
+122020025       0637  TRATOR JD 8420 - 07/12/2006                                                                          0,00                
+122020026       0638  COLHEITADEIRA ALG JD 9996-D - 12/02/2007                                                             0,00                
+122020027       0639  SUBSOLADOR JAN JMBAD-13 - 01/12/2006                                                                 0,00                
+122020028       0640  GRADE NIVELADORA PICCIN 120x22 - 01/12/2006                                                          0,00                
+122020029       0641  TANQUE RESER F-4000 - 19/05/2007                                                                     0,00                
+122020030       0642  VEICULO FORD F250 KLT W20 - 17/05/2007                                                               0,00                
+122020031       0643  TRATOR JD 5603 4x2 - 05/01/2007                                                                      0,00                
+122020032       0644  TRATOR JD 7505-B - 25/04/2008                                                                        0,00                
+122020033       0645  SEMEADORA SERIE 38156 AS091-A - 02/08/2005                                                           0,00                
+122020034       0646  SEMEADORA SERIE 38156 AS091-B - 02/08/2005                                                           0,00                
+122020035       0647  ADUBADORA STRIPTELL 011870 - 02/08/2005                                                              0,00                
+122020036       0648  ADUBADORA STRIPTELL 012237 - 02/08/2005                                                              0,00                
+122020037       0649  PULVERIZADOR RED BOLL 690-A - 10/10/2005                                                             0,00                
+122020038       0650  PELVERIZADOR RED BOLL 690-B - 10/10/2005                                                             0,00                
+122020039       0651  PULVERIZADOR RED BOLL 690-C - 01/12/2008                                                             0,00                
+122020040       0652  PULVERIZADOR RED BOLL 690-D - 01/12/2008                                                             0,00                
+122020041       0089  PRENÄA DE ALGOD«O                                                                                    0,00                
+122020042       0120  EMPILHADEIRA                                                                                         0,00                
+122020043       0233  Pµ CARREGADEIRA                                                                                      0,00                
+122020044       0234  AVI«O                                                                                                0,00                
+122020045       0550  CULTIVADOR                                                                                           0,00                
+122020046       0566  CULTIVADOR                                                                                           0,00                
+122020047       0720  TRATOR JD 7515 2009                                                                                  0,00                
+122020048       0721  TRATOR-1 JD 8430 2009                                                                                0,00                
+122020049       0722  TRATOR-2 JD 8430 2009                                                                                0,00                
+122020050       0723  TRATOR-3 JD 8430 2009                                                                                0,00                
+122020051       0724  TRATOR-4 JD 8430 2009                                                                                0,00                
+122020052       0725  VAN FORD 2009                                                                                        0,00                
+122020053       0747  CARROCERIA F-4000                                                                                    0,00                
+122020054       0007492012 NXR 150 KS MIX                                                                                  0,00                
+12203           0156  MOVEIS E UTENSILIOS                                                                                  0,00                
+122030001       0585  MOVEIS                                                                                               0,00                
+122030002       0653  AR COND CONSUL 7500 - 12/09/2003                                                                     0,00                
+122030003       0654  TV PANASONIC 29" - 12/09/2003                                                                        0,00                
+122030004       0655  CELULAR NOKIA 2280 - 21/06/2003                                                                      0,00                
+125             0159  EDIFICAÄÂES                                                                                          0,00                
+12501           0586  OBRAS E CONSTRUÄÂES                                                                                  0,00                
+125010001       0587  CONSTRUÄÂES                                                                                          0,00                
+125010002       0667  ELETRIFICAÄ«O RURAL                                                                                  0,00                
+127             0013  (-) DEPRECIAÄÂES, AMORTIZAÄÂES E EXAUSTÂES                                                           0,00                
+12701           0014  (-) DEPRECIAÄÂES                                                                                     0,00                
+127010001       0015  (-) DEPRECIAÄÂES MAQUINAS E EQUIPAMENTOS                                                             0,00                
+127010002       0016  (-) DEPRECIAÄÂES MOVEIS E UTENSILIOS                                                                 0,00                
+127010003       0017  (-) DEPRECIAÄÂES OBRAS E CONSTRUÄÂES                                                                 0,00                
+128             0157  INTANG÷VEIS                                                                                          0,00                
+2               0080  PASSIVO                                                                                         -33524,50                
+21              0160  PASSIVO CIRCULANTE                                                                             -352352,75                
+211             0161  OBRIGAÄOES                                                                                     -352352,75                
+21101           0162  OBRIGAÄÂES TRABALHISTAS                                                                              0,00                
+211010001       0163  SALARIOS A PAGAR                                                                                     0,00                
+211010002       0164  PRO-LABORE A PAGAR                                                                                   0,00                
+211010003       0683  FêRIAS A PAGAR                                                                                       0,00                
+211010004       0684  13ß SALARIO A PAGAR                                                                                  0,00                
+21102           0165  FORNECEDORES                                                                                         0,00                
+211020001       0166  MDM SEMENTES DE ALGODAO S/A                                                                          0,00                
+211020002       0167  MONSANTO DO BRASIL S/A                                                                               0,00                
+211020003       0168  BASF S/A                                                                                             0,00                
+211020004       0169  BAYER S/A                                                                                            0,00                
+211020005       0170  SYNGENTA S/A                                                                                         0,00                
+211020006       0171  FMC QUIMICA S/A                                                                                      0,00                
+211020007       0172  AGRIPEC S/A                                                                                          0,00                
+211020008       0173  DU PONT DO BRASIL S/A                                                                                0,00                
+211020009       0174  IHARABRAS QUIMICA S/A                                                                                0,00                
+211020010       0175  ZERECO DISTRIB PECAS LTDA                                                                            0,00                
+211020011       0176  COAGRIL COM PÄ AGR LTDA                                                                              0,00                
+211020012       0177  SMM COM MAQ PARAFUSOS LTDA                                                                           0,00                
+211020013       0178  CCS CAMINHOES LTDA                                                                                   0,00                
+211020014       0327  IROPEL                                                                                               0,00                
+211020015       0328  LAVROBRAS                                                                                            0,00                
+211020016       0416  PAULO MARCOS BORGES                                                                                  0,00                
+211020017       0417  ROBERTA KELIM BORGES                                                                                 0,00                
+211020018       0418  ODILSON REZENDE                                                                                      0,00                
+211020019       0419  FAZENDA ESPIGAO AZUL PAULO MARCOS BORGES                                                             0,00                
+211020020       0420  HIDRAUMASTER SISTEMAS HIDRAULICOS LTDA                                                               0,00                
+211020021       0421  NARCISO INACIO JUNIOR                                                                                0,00                
+211020022       0422  MOSAIC FERTILIZANTES S/A                                                                             0,00                
+211020023       0423  PIONNER S/A                                                                                          0,00                
+211020024       0424  GALVANI IND COM E SERVICO LTDA                                                                       0,00                
+211020025       0425  CARGIL FERTILIZANTES S/A                                                                             0,00                
+211020026       0426  A.S LIMA & M. S BRITO LTDA                                                                           0,00                
+211020027       0427  PICCIM MAQ AGRICOLAS LTDA                                                                            0,00                
+211020028       0428  HORTI FRUTI LM LTDA                                                                                  0,00                
+211020029       0429  HIDRACIL COMP HIDR LTDA                                                                              0,00                
+211020030       0430  LONGO E FERREIRA LTDA                                                                                0,00                
+211020031       0431  BRITACAL IND COM BRITA CALC BRAS LTDA                                                                0,00                
+211020032       0432  SYNAGRO COMERCIAL AGRICOLA LTDA LEM                                                                  0,00                
+211020033       0433  AGROSUL MAQUINAS LTDA                                                                                0,00                
+211020034       0434  JULIANI PECAS AGRIC AUTOM LTDA                                                                       0,00                
+211020035       0435  REDE ROYAL DE AUTO POSTOS LTDA                                                                       0,00                
+211020036       0436  TRANZABEL LTDA                                                                                       0,00                
+211020037       0437  LONI MARIA HUPSER VOGT                                                                               0,00                
+211020038       0438  CLAUDINO S/A                                                                                         0,00                
+211020039       0439  IARA EBERLEIN SCHLOSSER                                                                              0,00                
+211020040       0440  MINERACO DO OESTE LTDA                                                                               0,00                
+211020041       0441  FERSOL INDUSTRIA E COMERCIO LTDA                                                                     0,00                
+211020042       0442  FERTIPAR FERTILIZANTES DO NORD LTDA                                                                  0,00                
+211020043       0443  POSTO NOVENTA LTDA                                                                                   0,00                
+211020044       0444  LUCIANO DE ALMEIDA                                                                                   0,00                
+211020045       0445  HOTEL PARANOA                                                                                        0,00                
+211020046       0446  LAVROTERRA COM REP PROD AGRICOLA LTDA                                                                0,00                
+211020047       0447  LUDARIO VALE DOS SANTOS                                                                              0,00                
+211020048       0448  R C WEIRICH                                                                                          0,00                
+211020049       0449  BASTOS PEIXOTO COM VIDROS LTDA                                                                       0,00                
+211020050       0450  TRANSDEF TRASN DEFEN AGRIC LTDA                                                                      0,00                
+211020051       0451  D H M DISTRIBUIDORA PECAS LTDA                                                                       0,00                
+211020052       0452  OLYMPICA ESPORTE LAZER LTDA                                                                          0,00                
+211020053       0453  SOLUTTA COMERCIAL AGRICOLA LTDA                                                                      0,00                
+211020054       0454  PAULO FERNANDO SILVA MEIRELES                                                                        0,00                
+211020055       0455  TEC CONTROL IND COM PROD P AGRO                                                                      0,00                
+211020056       0456  VICTORIO MITSUKASO OBATA                                                                             0,00                
+211020057       0457  LAERTE BAECHTOLD                                                                                     0,00                
+211020058       0458  COMPO DO BRASIL S/A                                                                                  0,00                
+211020059       0459  DINO ROMULO FACCIONI                                                                                 0,00                
+211020060       0460  HOKKO DO BRASIL IND QUI AGR LTDA                                                                     0,00                
+211020061       0461  IND QUI KIMBERLIT LTDA                                                                               0,00                
+211020062       0462  ARINO TRENTO                                                                                         0,00                
+211020063       0463  LURDES BENDER                                                                                        0,00                
+211020064       0464  LORI HEDI HERBER                                                                                     0,00                
+211020065       0465  NELVO JOSE WILLMS                                                                                    0,00                
+211020066       0466  VITRINE COM VI ESQ LTDA                                                                              0,00                
+211020067       0467  SCARAB S/A                                                                                           0,00                
+211020068       0468  SUPORT COMERCIAL AGRICOLA LTDA                                                                       0,00                
+211020069       0469  CISA TRANDING S/A                                                                                    0,00                
+211020070       0470  MATTOS FILHO ADVOCACIA LTDA                                                                          0,00                
+211020071       0471  MOVESA MOTORES VEIC NORDESTE                                                                         0,00                
+211020072       0472  UBS COTTON LTDA ME                                                                                   0,00                
+211020073       0473  WALDEMAR SECCO ME                                                                                    0,00                
+211020074       0474  PAULO DINIZ TOHOMAZI                                                                                 0,00                
+211020075       0475  CROMPTOM LTDA                                                                                        0,00                
+211020076       0476  GILZA CRISTINA NEVES RESENDES                                                                        0,00                
+211020077       0477  NUTRION AGRONUTRIENTES LTDA                                                                          0,00                
+211020078       0478  CALDEIRA E SILVA LTDA                                                                                0,00                
+211020079       0479  TK COM E REP DE PROD AGROP LTDA                                                                      0,00                
+211020080       0480  EDITORA IND GRAF BOM GOSTO LTDA                                                                      0,00                
+211020081       0481  TROL TRASNPORTES RODOV OSORIO LTDA                                                                   0,00                
+211020082       0482  TAO COMERCIO DE ALIM LTDA                                                                            0,00                
+211020083       0483  AUTO POSTO ITICAR LTDA                                                                               0,00                
+211020084       0484  RIBEIRO E SCHNEIDER LTDA                                                                             0,00                
+211020085       0485  C GAGLIARDI E CIA LTDA                                                                               0,00                
+211020086       0486  PRODUQUIMICA IND E COM LTDA                                                                          0,00                
+211020087       0487  SERVICOM SERV COM EXTERIOR LTDA                                                                      0,00                
+211020088       0488  AGRIPEC QUIMICA FARMACEUTICA S/A                                                                     0,00                
+211020089       0489  JOSE RODRIGUES NASC SOBRINHO                                                                         0,00                
+211020090       0490  JORGE IVAN DOS SANTOS PINHEIRO                                                                       0,00                
+211020091       0491  ALICE E DE SOUSA E CIA LTDA                                                                          0,00                
+211020092       0492  SUZANE MARI PIANA                                                                                    0,00                
+211020093       0493  FAZENDA CURITIBA LTDA                                                                                0,00                
+211020094       0494  MDM SEMENTES DE ALGODAO S/A                                                                          0,00                
+211020095       0495  MINERADORA RANCHARIA LTDA                                                                            0,00                
+211020096       0496  CALMINA CIA INTEGRADA CALCINACAO                                                                     0,00                
+211020097       0497  GILTON CESAR MOTA SANTOS                                                                             0,00                
+211020098       0498  FABIANDRA COM DE COMB LTDA                                                                           0,00                
+211020099       0499  POSTO ROSARIO LTDA                                                                                   0,00                
+211020100       0500  JOSE RIVALDO SANTANA                                                                                 0,00                
+211020101       0501  AGROPLANTA IND QUIMICAS LTDA                                                                         0,00                
+211020102       0502  KUHLMANN SERVICOS DE CLASSIF LTDA                                                                    0,00                
+211020103       0503  OESTE RURAL LTDA                                                                                     0,00                
+211020104       0504  OMAR SEIFERT                                                                                         0,00                
+211020105       0505  OESTE EMPRESA DE SEGURANCA LTDA                                                                      0,00                
+211020106       0506  YARA BRASIL FERTILIZANTES S/A                                                                        0,00                
+211020107       0507  NORTOX S/A                                                                                           0,00                
+211020108       0508  COM MAT CONSTRUCAO SM LTDA                                                                           0,00                
+211020109       0509  COM MAT CONSTRUCAO BOA VISTA LTDA                                                                    0,00                
+211020110       0510  LABORATORIO PFIZER LTDA                                                                              0,00                
+211020111       0511  CREACAO OPCAO LTDA                                                                                   0,00                
+211020112       0512  HIDROAGRO NOR COM SIS IRRIG LTDA                                                                     0,00                
+211020113       0513  WAL-MART BRASIL LTDA                                                                                 0,00                
+211020114       0514  COM AGRI CONVERD PRES LTDA                                                                           0,00                
+211020115       0515  MINERADORA SAO JORGE S/A                                                                             0,00                
+211020116       0516  MOSAIC FERTIL DO BRASIL S/A                                                                          0,00                
+211020117       0517  BBC CONSUTORIA LTDA                                                                                  0,00                
+211020118       0518  ALBINO FALKOWSKI                                                                                     0,00                
+211020119       0519  SEMEAR COMERCIAL AGRICOLA LTDA                                                                       0,00                
+211020120       0520  VALTER GATTO                                                                                         0,00                
+211020121       0521  TRANSPORTADORA ROTA 90 LTDA                                                                          0,00                
+211020122       0522  HERTILIZANTES HERINGER S/A                                                                           0,00                
+211020123       0523  UBS COTTON LTDA ME                                                                                   0,00                
+211020124       0524  EBDA EMPRESA BAIANA DESENV AGR S/A                                                                   0,00                
+211020125       0525  CALMINA CIA INTEGRADA CALCINACAO                                                                     0,00                
+211020126       0526  COOPAC COOP PROD ALG CERRADO LTDA                                                                    0,00                
+211020127       0527  SORAIA SIMAO COSTA GOMES ME                                                                          0,00                
+211020128       0528  ACCERT TRASPORTES E LOGISTICA LTDA                                                                   0,00                
+211020129       0529  GRAFICA E EDITORA JL LTDA                                                                            0,00                
+211020130       0530  TOPOGRAFIA E PLANEJAMENTO RURAL LTDA                                                                 0,00                
+211020131       0531  GRAFICA CORUJINHA LTDA                                                                               0,00                
+211020132       0532  SAN DIAS CORRETORA COM FUTUROS LTDA                                                                  0,00                
+211020133       0533  UNICOT COMERCIAL LTDA                                                                                0,00                
+211020134       0534  COOPERATIVA AGRO OESTE DA BAHIA                                                                      0,00                
+211020135       0535  NUTRIPLANT IND COM S/A                                                                               0,00                
+211020136       0536  NUFARM IND QUIM FARM S/A                                                                             0,00                
+211020137       0537  CIBRAFERTIL COMP BRA DE FERT                                                                         0,00                
+211020138       0539  BUNGE FERTILIZANTES S/A                                                                              0,00                
+211020139       0564  VERMELH«O TRANSP E COMERCIO LTDA                                                                     0,00                
+211020140       0568  NUTRIFERTIL                                                                                          0,00                
+211020141       0570  COTTON MAX                                                                                           0,00                
+211020142       0571  AGROLAB                                                                                              0,00                
+211020145       0600  TOSATTI & TOSATTI LTDA                                                                               0,00                
+211020146       0668  BRASIL CARGO SERVICE                                                                                 0,00                
+211020147       0669  UNIMED OESTE DA BAHIA                                                                                0,00                
+211020148       0740  CLINICA SAO CAMILO                                                                                   0,00                
+211020149       0758  CCAB AGRO LTDA                                                                                       0,00                
+211020150       0759  CHEMINOVA BRASIL LTDA                                                                                0,00                
+211020151       0772  COOPERFARMS                                                                                          0,00                
+211020152       0773  P&F CONSULTORIA                                                                                      0,00                
+211020153       0774  SEG & COMPANY LTDA                                                                                   0,00                
+211020154       0776  LENCO TECNOLOGIA                                                                                     0,00                
+21103           0179  TITULOS A PAGAR                                                                                      0,00                
+21104           0180  OBRIGAÄOES BANCµRIAS E FINANCEIRAS                                                                   0,00                
+211040001       0181  BANCO DO BRASIL C/E - FAZ                                                                            0,00                
+211040002       0182  BANCO DO BRASIL C/E - GIN                                                                            0,00                
+211040003       0183  BANCO HSBC C/E                                                                                       0,00                
+211040004       0184  CARROLL FARMS C/E                                                                                    0,00                
+211040005       0185  HERTZ BRAZIL FARM LTDA C/E                                                                           0,00                
+211040006       0186  AGROPECUARIA CHAPADA VERDE C/E                                                                       0,00                
+211040007       0187  JOSEPH FANCIS CONOR C/E                                                                              0,00                
+211040008       0188  CARTHAGE C/E                                                                                         0,00                
+211040009       0189  CARROLL LLC C/E                                                                                      0,00                
+211040010       0190  PAULO SILVIO COPPETTI C/E                                                                            0,00                
+211040011       0191  CARGIL C/E                                                                                           0,00                
+211040012       0592  SAULO FIGUEIREDO E IRM«OS C/P                                                                        0,00                
+211040013       0677  ROSANGELA MARIA DUARTE                                                                               0,00                
+211040014       0678  JOAO BATISTA DUARTE                                                                                  0,00                
+211040015       0748  BANCO CARGIL C/P                                                                                     0,00                
+21105           0192  OBRIGAÄÂES PREVIDENCIARIAS                                                                           0,00                
+211050001       0193  INSS A RECOLHER                                                                                      0,00                
+211050002       0194  FGTS A RECOLHER                                                                                      0,00                
+21106           0203  OBRIGAÄÂES TRIBUTµRIAS                                                                               0,00                
+211060001       0196  PIS A RECOLHER                                                                                       0,00                
+211060002       0197  COFINS A RECOLHER                                                                                    0,00                
+211060003       0198  CSLL A RECOLHER                                                                                      0,00                
+211060004       0199  IRPJ A RECOLHER                                                                                      0,00                
+211060005       0200  IRRF A RECOLHER                                                                                      0,00                
+211060006       0202  CONTR SIND A RECOLHER                                                                                0,00                
+211060007       0726  CONTR SIND EMPREGADOR A RECOLHER                                                                     0,00                
+211060010       0201  ICMS A RECOLHER                                                                                      0,00                
+211060011       0597  IRRF RETIDO A RECOLHER                                                                               0,00                
+211060012       0599  PIS, COFINS E CSLL RETIDO A RECOLHER                                                                 0,00                
+211060013       0026  INSS PRODUÄ«O A RECOLHER                                                                             0,00                
+21107           0204  ADIANTAMENTO RECEBIDO DE CLIENTES                                                                    0,00                
+211070001       0205  AD-CLI ALGODOEIRA IPANEMA                                                                            0,00                
+211070002       0206  AD-CLI COOPROESTE COOP PROD OESTE BAHIA                                                              0,00                
+211070003       0207  AD-CLI BIAL BONFIM                                                                                   0,00                
+211070004       0208  AD CLI JOSE PINHEIRO                                                                                 0,00                
+211070005       0670  AD-CLI QUEENSLAND                                                                                    0,00                
+211070006       0676  AD-CLI DUNAVANT MC FADDEN                                                                            0,00                
+211070007       0012  AD-CLI MULTIGRAIN S/A                                                                                0,00                
+211070008       0228  AD-CLI MULTICOTTON                                                                                   0,00                
+211070009       0231  AD-CLI ADM DO BRASIL                                                                                 0,00                
+211070010       0232  AD-CLI WEIL BROTHERS                                                                                 0,00                
+211070011       0694  AD-CLI LOUIS DREYFUS                                                                                 0,00                
+21108           0209  CONTRATO DE CAMBIO A REG JUCEB BACEN                                                                 0,00                
+211080001       0588  C/CAM-HERTZ BRAZIL FARM FUND LLC                                                                     0,00                
+211080002       0673  C/CAM-DANIEL PAUL CARROLL                                                                            0,00                
+211080003       0674  C/CAM-DAVID DANIEL CARROLL                                                                           0,00                
+211080004       0675  C/CAM-JOHN DANIEL CARROLL                                                                            0,00                
+21109           0551  PARTES RELACIONADAS PASSIVA                                                                    -352352,75                
+211090001       0552  JOHN DANIEL CARROLL C/P                                                                              0,00                
+211090002       0553  JOSEPH FRANCIS CONNOR C/P                                                                            0,00                
+211090003       0554  CARROLL FARMS BRASIL LTDA C/P                                                                   -81313,76                
+211090004       0555  HERTZ BRAZIL FARM LTDA C/P                                                                           0,00                
+211090005       0556  AGROPECUARIA CHAPADA VERDE LTDA C/P                                                                  0,00                
+211090006       0557  AGROPECUARIA POMBERG LTDA C/P                                                                        0,00                
+211090007       0558  CARTHAGE BRASIL FARMS LTDA C/P                                                                       0,00                
+211090008       0561  CARROLL LLC FARMS C/P                                                                          -271038,99                
+211090009       0593  JOHN DANIEL CARROLL - GIN C/P                                                                        0,00                
+211090010       0727  HENDRIX BRASIL FARMS - CP                                                                            0,00                
+211090011       0738  CARROLL FARMS USA                                                                                    0,00                
+211090012       0777  AGROSERVICE COMERCIAL AGRICOLA E SERVIÄOS LTDA C/P                                                   0,00                
+22              0210  PASSIVO NAO CIRCULANTE                                                                               0,00                
+221             0211  EXIG÷VEL A LONGO PRAZO                                                                               0,00                
+22101           0212  OBRIGAÄOES BANCµRIAS E FINANCEIRAS L/P                                                               0,00                
+221010001       0213  BANCO CARGIL L/P                                                                                     0,00                
+221010002       0672  CARROLL LLC L/P                                                                                      0,00                
+23              0214  PATRIM‚NIO L÷QUIDO                                                                              318828,25                
+231             0215  CAPITAL SOCIAL                                                                                -2000000,00                
+23101           0216  CAPITAL SUBSCRITO                                                                             -2000000,00                
+231010001       0656  C/S - DANIEL PAUL CARROLL                                                                            0,00                
+231010002       0657  C/S - DAVID DANIEL CARROLL                                                                           0,00                
+231010003       0658  C/S - JOHN DANIEL CARROLL                                                                     -2000000,00                
+231010004       0659  C/S - DAREL DUANE CARROLL                                                                            0,00                
+231010005       0660  C/S - COLLEEN MC ANDREW                                                                              0,00                
+231010006       0661  C/S - CLINT MATTHEW BIDDLE                                                                           0,00                
+23102           0217  CAPITAL A INTEGRALIZAR                                                                               0,00                
+232             0218  RESERVA DE CAPITAL                                                                                   0,00                
+233             0219  RESERVA DE REAVALIACAO                                                                               0,00                
+234             0220  RESERVA DE LUCROS                                                                                    0,00                
+235             0221  LUCRO E OU PREJU÷ZOS                                                                           2318828,25                
+23501           0222  LUCRO E OU PREJU÷ZOS ACUMULADOS                                                                2318828,25                
+235010001       0223  LUCRO ACUMULADO                                                                                      0,00                
+235010002       0224  (-) PREJU÷ZO ACUMULADO                                                                         2318828,25                
+3               0225  RESULTADO DESPESAS                                                                                   0,00                
+31              0226  DESPESAS                                                                                             0,00                
+312             0238  CUSTO DIRETO DE PRODUÄ«O                                                                             0,00                
+31201           0239  CUSTO DO PRODUTO VENDIDO                                                                             0,00                
+312010001       0240  CUSTO DE PRODUÄ«O                                                                                    0,00                
+312010002       0241  CUSTO CAROÄO ALGODAO                                                                                 0,00                
+312010003       0242  CUSTO SOJA                                                                                           0,00                
+312010004       0243  CUSTO MILHO                                                                                          0,00                
+312010005       0728  CUSTO AMENDOIM                                                                                       0,00                
+313             0244   DESPESAS OPERACIONAIS E ADMINISTRATIVAS                                                             0,00                
+31301           0245  DESPESAS COM VENDAS                                                                                  0,00                
+313010001       0246  COMISSÂES S/ VENDAS                                                                                  0,00                
+313010002       0247  ARMAZENAGEM                                                                                          0,00                
+313010003       0248  VIAGENS DPTO VENDAS                                                                                  0,00                
+313010004       0249  FRETE S/ VENDAS                                                                                      0,00                
+313010005       0055  LAUDOS HVIS                                                                                          0,00                
+313010006       0229  DESPESAS ADUANEIRAS                                                                                  0,00                
+313010007       0755  TAXAS COOPERATIVA                                                                                    0,00                
+313010008       0756  ROYALTIES                                                                                            0,00                
+31302           0250  DESPESAS TRIBUTµRIAS                                                                                 0,00                
+313020001       0251  ITR                                                                                                  0,00                
+313020002       0252  IPTU                                                                                                 0,00                
+313020003       0253  IPVA                                                                                                 0,00                
+313020004       0254  CONTR SINDICAL EMPREGADOR                                                                            0,00                
+313020005       0255  MULTAS JUROS ENCARG FISCAIS                                                                          0,00                
+313020006       0594  IMPOSTOS FEDERAIS RETIDOS                                                                            0,00                
+31303           0256  DESPESAS FINANCEIRAS                                                                                 0,00                
+313030001       0257  JURO PASSIVO                                                                                         0,00                
+313030002       0258  DESPESA BANCµRIA                                                                                     0,00                
+313030003       0259  PERDA NA VARIAÄ«O CAMBIAL                                                                            0,00                
+313030004       0260  IOF                                                                                                  0,00                
+313030005       0261  CPMF                                                                                                 0,00                
+313030006       0050  DESPESA COM C∂MBIO                                                                                   0,00                
+313030007       0729  DESPESA FINANCEIRA                                                                                   0,00                
+313030008       0769  MULTA QUEBRA CONTRATO                                                                                0,00                
+31304           0262  DESPESA COM PESSOAL                                                                                  0,00                
+313040001       0263  SALARIO                                                                                              0,00                
+313040002       0264  IRRF                                                                                                 0,00                
+313040003       0265  FGTS                                                                                                 0,00                
+313040004       0266  INSS                                                                                                 0,00                
+313040005       0267  FêRIAS                                                                                               0,00                
+313040006       0268  13 SALARIO                                                                                           0,00                
+313040007       0269  CURSO FORMAÄ«O FUNCIONµRIOS                                                                          0,00                
+313040008       0270  UNIFORMES EPI                                                                                        0,00                
+313040009       0271  ASSIST“NCIA MêDICA                                                                                   0,00                
+313040010       0272  INDENIZAÄÂES TRABALHISTAS                                                                            0,00                
+313040011       0273  TRABALHADORES EVENTUAIS                                                                              0,00                
+313040012       0682  PLANO DE SAUDE                                                                                       0,00                
+313040013       0042  MATERIAL FARMACEUTICO                                                                                0,00                
+313040014       0046  ADICIONAL NOTURNO                                                                                    0,00                
+313040015       0047  ADICIONAL DE PERICULOSIDADE                                                                          0,00                
+313040016       0048  ADICIONAL DE ISALUBRIDADE                                                                            0,00                
+313040017       0056  COMISSÂES                                                                                            0,00                
+313040018       0230  MULTAS CLT                                                                                           0,00                
+313040019       0730  CONTRIBUICAO SINDICAL                                                                                0,00                
+313040020       0764  SENAR                                                                                                0,00                
+313040021       0771  AUTO DE INFRAÄ«O                                                                                     0,00                
+31306           0274  DESPESAS GERAIS                                                                                      0,00                
+313060001       0275  ALUGUEIS                                                                                             0,00                
+313060002       0276  SEGUROS                                                                                              0,00                
+313060003       0277  ENERGIA ELETRICA                                                                                     0,00                
+313060004       0278  AGUA E ESGOTO                                                                                        0,00                
+313060005       0279  COMBUSTIVEIS E LUBRIFICANTES                                                                         0,00                
+313060006       0280  MATERIAL DE CONSUMO                                                                                  0,00                
+313060007       0281  TELEFONE                                                                                             0,00                
+313060008       0282  ASSESSORIA JUR÷DICA                                                                                  0,00                
+313060009       0283  ASSESSORIA CONTµBIL                                                                                  0,00                
+313060010       0284  ASSESSORIA AGRON‚MICA                                                                                0,00                
+313060011       0285  CONSULTORIAS                                                                                         0,00                
+313060012       0562  CONTRIBUIÄ«O SINDICAL RURAL                                                                          0,00                
+313060013       0563  TAXAS                                                                                                0,00                
+313060014       0567  CLASSIFICAÄ«O                                                                                        0,00                
+313060015       0572  DESPESAS DIVERSAS                                                                                    0,00                
+313060016       0595  REGISTROS E AUTENTICAÄÂES                                                                            0,00                
+313060017       0023  FRETES E CARRETOS                                                                                    0,00                
+313060018       0035  MANUTENÄ«O DE MAQUINAS E EQUIPAMENTOS                                                                0,00                
+313060019       0036  INTERNET                                                                                             0,00                
+313060020       0038  G“NEROS DE ALIMENTAÄ«O                                                                               0,00                
+313060021       0039  MATERIAL DE PROCESSAMENTO DE DADOS                                                                   0,00                
+313060022       0040  MATERIAL PARA FESTIVIDADES                                                                           0,00                
+313060023       0041  MATERIAL DE EXPEDIENTE                                                                               0,00                
+313060024       0043  MATERIAL DE COPA E COZINHA                                                                           0,00                
+313060025       0044  MATERIAL DE LIMPEZA                                                                                  0,00                
+313060026       0045  MATERIAL GRAFICO                                                                                     0,00                
+313060027       0049  VIAGENS                                                                                              0,00                
+313060029       0052  HOSPEDAGEM                                                                                           0,00                
+313060030       0053  OBRAS E CONSTRUÄÂES                                                                                  0,00                
+313060031       0054  SERVIÄO DE TERCEIROS                                                                                 0,00                
+313060032       0067  DESPESA COM CORREIO                                                                                  0,00                
+313060033       0696  BRINDES                                                                                              0,00                
+313060034       0735  ARMAZENAGEM                                                                                          0,00                
+313060035       0737  DESPESAS COM IMPORTAÄ«O                                                                              0,00                
+31307           0158  IMOBILIZADO                                                                                          0,00                
+313070001       0227  ALGODOEIRA CARROLL FARMS                                                                             0,00                
+313070002       0298  ENFAR ALGOD«O EM CAROÄO M70M3C 09/04/07                                                              0,00                
+313070003       0299  ARADO SUBS JUMBO MAIC BUSTER 11/05/07                                                                0,00                
+313070004       0300  ENFAR ALGOD«O GIGA 70M3 11/06/07                                                                     0,00                
+313070005       0301  CAMINH«O CARGO 2422 FORD 16/05/07                                                                    0,00                
+313070006       0575  CAÄAMBA BASC AGR STCF SERIE 80 08/04/08                                                              0,00                
+313070007       0576  Pµ CARREGADEIRA MOD W20E 12/05/08                                                                    0,00                
+313070008       0577  LANCER JAN 12 TON 04/07/08                                                                           0,00                
+313070009       0578  PICADOR DESINTEGR JM TR 5200 23/05/08                                                                0,00                
+313070010       0579  VEICULO WV FOX 25/03/08                                                                              0,00                
+313070011       0580  MOTO HONDA BROS 150/01 26/11/08                                                                      0,00                
+313070012       0581  MOTO HONDA BROS 150/02 26/11/08                                                                      0,00                
+313070013       0582  MOTO HONDA BROS 150/03 26/11/08                                                                      0,00                
+313070014       0583  VEICULO FORD F-350 30/12/08                                                                          0,00                
+313070015       0584  VEICULO F-4000 31/12/08                                                                              0,00                
+313070016       0589  REBOQUE PIPA 27-TON 19/03/08                                                                         0,00                
+313070017       0590  TORNO FURAD BANCADA FREZA 24/07/08                                                                   0,00                
+313070018       0598  VEICULO CHEVROLET MONTANA 2008 23/07/08                                                              0,00                
+313070019       0632  VEICULO FIAT STRADA 2007 01/09/08                                                                    0,00                
+313070020       0662  PRENÄA DE ALGOD«O                                                                                    0,00                
+313070021       0663  EMPILHADEIRA                                                                                         0,00                
+313070022       0664  Pµ CARREGADEIRA                                                                                      0,00                
+313070023       0671  AVI«O                                                                                                0,00                
+313070024       0685  CULTIVADOR/01                                                                                        0,00                
+313070025       0686  CULTIVADOR/02                                                                                        0,00                
+313070026       0687  TRATOR JD 7515 2009                                                                                  0,00                
+313070027       0688  TRATOR-01 JD 8430 2009                                                                               0,00                
+313070028       0689  TRATOR-02 JD 8430 2009                                                                               0,00                
+313070029       0690  TRATOR-03 JD 8430 2009                                                                               0,00                
+313070030       0691  TRATOR-04 JD 8430 2009                                                                               0,00                
+313070031       0692  VAN FORD 2009                                                                                        0,00                
+313070032       0693  MOTO HONDA 2009                                                                                      0,00                
+313070033       0697  VEICULO FIAT STRADA WORKING 10/03/2010                                                               0,00                
+313070034       0698  VEICULO FIAT STRADA FIRE FLEX 10/03/2010                                                             0,00                
+313070035       0699  PULVERIZADOR MOD 4730 03/02/2010                                                                     0,00                
+313070036       0700  VEICULO FIAT STRADA 1.8                                                                              0,00                
+313070037       0701  ROÄADEIRA JUMIL 10/05/2010                                                                           0,00                
+313070038       0702  CULTIVADORA 2010                                                                                     0,00                
+313070039       0731  PLANTADEIRA KINZE 2010                                                                               0,00                
+313070040       0705  CAMIONETE F-4000 2010/1                                                                              0,00                
+313070041       0706  CAMIONETE F-4000 2010/2                                                                              0,00                
+313070042       0707  CAMIONETE F-4000 2010/3                                                                              0,00                
+313070043       0708  CAMIONETE FORD RANGER 2010                                                                           0,00                
+313070044       0709  MOTO HONDA NXR 150 29/01/2010                                                                        0,00                
+313070045       0710  ROÄADEIRA # 3 BALDAN 11/06/2010                                                                      0,00                
+313070046       0711  PULVERIZADOR JD 4730 27/08/2010                                                                      0,00                
+313070047       0712  ROÄADEIRA TRIMAX 450 20/08/2010                                                                      0,00                
+313070048       0713  PLANTADEIRA JD 36" 01/09/2010                                                                        0,00                
+313070049       0714  MOTO HONDA NXR 150 27/11/2010                                                                        0,00                
+313070050       0736  JD 16 PRO UNIDADES DE COLHEITADEIRA 9996                                                             0,00                
+313070051       0739  PRENSA COMPACTADORA DE ALGOD«O                                                                       0,00                
+313070052       0745  PICADOR DESINTEG JM TR 4500                                                                          0,00                
+313070053       0750  MOTO HONDA NXR 150 KS MIX                                                                            0,00                
+313070054       0751  CARROCERIA F-4000 2011                                                                               0,00                
+313070055       0752  EMPILHADEIRA DAEWOO                                                                                  0,00                
+31309           0018  DESPESA COM DEPRECIAÄÂES, AMORTIZAÄÂES E EXAUSTÂES                                                   0,00                
+313090001       0019  DESPESA COM DEPRECIAÄÂES                                                                             0,00                
+33              0286  DESPESAS NAO OPERACIONAIS                                                                            0,00                
+331             0287  RESULTADO NA ALIENAÄ«O DE BENS                                                                       0,00                
+33101           0288  PERDA DE CAPITAL                                                                                     0,00                
+331010001       0289  PERDA NA ALIENAÄ«O DO ATIVO PERMANENTE                                                               0,00                
+4               0290  RECEITA RESULTADO                                                                                    0,00                
+41              0291  RECEITA                                                                                              0,00                
+411             0292  RECEITA BRUTA VENDAS                                                                                 0,00                
+41101           0293  VENDAS                                                                                               0,00                
+411010001       0294  VENDA DE ALGOD«O                                                                                     0,00                
+411010002       0295  VENDA DE CAROÄO                                                                                      0,00                
+411010003       0296  VENDA DE SOJA                                                                                        0,00                
+411010004       0297  VENDA DE MILHO                                                                                       0,00                
+411010005       0732  VENDA DE AMENDOIM                                                                                    0,00                
+411010006       0733  VENDA DE FIBRILHA                                                                                    0,00                
+41110           0033  PREMIO PEPRO                                                                                         0,00                
+411100001       0034  PREMIO PEPRO                                                                                         0,00                
+42              0302  DEDUÄ«O DE RECEITA BRUTA                                                                             0,00                
+421             0303  DEDUÄ«O DE RECEITA                                                                                   0,00                
+42101           0304  IMPOSTOS DIRETOS                                                                                     0,00                
+421010001       0305  PIS-PROD                                                                                             0,00                
+421010002       0306  COFINS-PROD                                                                                          0,00                
+421010003       0307  CSLL-PROD                                                                                            0,00                
+421010004       0308  IRPJ -PROD                                                                                           0,00                
+421010005       0309  ICMS-PROD                                                                                            0,00                
+421010006       0310  INSS-PROD                                                                                            0,00                
+421010007       0311  FUNDEAGRO-PROD                                                                                       0,00                
+421010008       0312  ISS-SERV                                                                                             0,00                
+421010009       0313  DESCONTO CONCEDIDOS E ABATIMENTOS                                                                    0,00                
+43              0314  RECEITA OPERACIONAL                                                                                  0,00                
+431             0315  RECEITAS OPERACIONAIS                                                                                0,00                
+43101           0316  RECEITA FINANCEIRA                                                                                   0,00                
+431010001       0317  GANHO VARIAÄ«O CAMBIAL                                                                               0,00                
+431010002       0318  JURO ATIVO                                                                                           0,00                
+431010003       0319  DESCONTO OBTIDO                                                                                      0,00                
+431010004       0320  RECEITA DE APLICAÄÂES FINANCEIRAS                                                                    0,00                
+46              0321  OUTRAS RECEITAS N«O OPERACIONAIS                                                                     0,00                
+461             0322  RECEITAS N«O OPERACIONAIS                                                                            0,00                
+46101           0323  GANHO PATRIMONIAL                                                                                    0,00                
+461010001       0324  GANHO NA ALIENAÄ«O DO ATIVO PERMANENTE                                                               0,00                
+461010002       0716  OUTRAS RECEITAS                                                                                      0,00                
+461010003       0734  VENDA DE IMOBILIZADO                                                                                 0,00                

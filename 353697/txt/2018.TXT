@@ -1,0 +1,112 @@
+0501313030002       111020002                 Tarifa Pacote Mensal                                       76,000
+0502313030002       111020002                 Tarifa Pacote Mensal                                       76,000
+0503313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+2703111020002       211090003                 EMPRESTIMO DA CARROLL                                   16500,000
+2703313040021                                 Darf Cod. 0289 Auto Infracao 19591616 Princ. R$ 2.       2411,500
+                                              411,50 Multa R$ 723,45 Juros R$ 1.341,75          
+2703                111020002                 Darf Cod. 0289 Auto Infracao 19591616 Princ. R$ 2.       4476,700
+                                              411,50 Multa R$ 723,45 Juros R$ 1.341,75          
+2703313020005                                 Darf Cod. 0289 Auto Infracao 19591616 Princ. R$ 2.       2065,200
+                                              411,50 Multa R$ 723,45 Juros R$ 1.341,75          
+2703313040021                                 Darf Cod. 0289 Auto Infracao 19591608 Princ. R$ 2.       2411,500
+                                              411,50 Multa R$ 723,45 Juros R$ 1.341,75          
+2703                111020002                 Darf Cod. 0289 Auto Infracao 19591608 Princ. R$ 2.       4476,700
+                                              411,50 Multa R$ 723,45 Juros R$ 1.341,75          
+2703313020005                                 Darf Cod. 0289 Auto Infracao 19591608 Princ. R$ 2.       2065,200
+                                              411,50 Multa R$ 723,45 Juros R$ 1.341,75          
+2703313040021                                 Darf Cod. 0289 Auto Infracao 19592515 Princ. R$ 4.       4025,330
+                                              025,33 Multa R$ 1.207,60 Juros R$ 2.239,69        
+2703                111020002                 Darf Cod. 0289 Auto Infracao 19592515 Princ. R$ 4.       7472,620
+                                              025,33 Multa R$ 1.207,60 Juros R$ 2.239,69        
+2703313020005                                 Darf Cod. 0289 Auto Infracao 19592515 Princ. R$ 4.       3447,290
+                                              025,33 Multa R$ 1.207,60 Juros R$ 2.239,69        
+0504313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+1704111020002       211090003                 EMPRESTIMO DA CARROLL                                    2000,000
+1704313060013       111020002                 AIBA - Anuidade 2018                                      954,000
+1804313060013       111020002                 AIBA - Anuidade 2017                                      937,000
+0705313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+3005111020002       211090003                 EMPRESTIMO DA CARROLL                                   79000,000
+3005313040021                                 Darf Cod. 0289 Ref: 46784000899201071 Princ. R$ 2.       2411,500
+                                              411,50 multa R$ 723,45 e Juros R$ 1.367,08        
+3005                111020002                 Darf Cod. 0289 Ref: 46784000899201071 Princ. R$ 2.       4502,030
+                                              411,50 multa R$ 723,45 e Juros R$ 1.367,08        
+3005313020005                                 Darf Cod. 0289 Ref: 46784000899201071 Princ. R$ 2.       2090,530
+                                              411,50 multa R$ 723,45 e Juros R$ 1.367,08        
+3005313040021                                 Darf Cod. 0289 Ref: 46784000893201002 Princ. R$ 23      23836,400
+                                              .836,40 multa R$ 7.150,92 e Juros R$ 13.512,86    
+3005                111020002                 Darf Cod. 0289 Ref: 46784000893201002 Princ. R$ 23      44500,180
+                                              .836,40 multa R$ 7.150,92 e Juros R$ 13.512,86    
+3005313020005                                 Darf Cod. 0289 Ref: 46784000893201002 Princ. R$ 23      20663,780
+                                              .836,40 multa R$ 7.150,92 e Juros R$ 13.512,86    
+0506313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+2106313040021                                 Darf Cod. 0289 Ref: 46784000914201081 Princ. R$ 1.       1140,000
+                                              140,00 multa R$ 342,00 e Juros R$ 652,19          
+2106313020005                                 Darf Cod. 0289 Ref: 46784000914201081 Princ. R$ 1.        994,190
+                                              140,00 multa R$ 342,00 e Juros R$ 652,19          
+2106                111020002                 Darf Cod. 0289 Ref: 46784000914201081 Princ. R$ 1.       2134,190
+                                              140,00 multa R$ 342,00 e Juros R$ 652,19          
+2106313040021                                 Darf Cod. 0289 Ref: 46784000889201036 Princ. R$ 2.       2411,500
+                                              411,50 multa R$ 723,45 e Juros R$ 1.379,61        
+2106313020005                                 Darf Cod. 0289 Ref: 46784000889201036 Princ. R$ 2.       2103,060
+                                              411,50 multa R$ 723,45 e Juros R$ 1.379,61        
+2106                111020002                 Darf Cod. 0289 Ref: 46784000889201036 Princ. R$ 2.       4514,560
+                                              411,50 multa R$ 723,45 e Juros R$ 1.379,61        
+2106313040021                                 Darf Cod. 0289 Ref: 46784000888201091 Princ. R$ 3.       3621,420
+                                              621,42 multa R$ 1.086,43 e Juros R$ 2.071,81      
+2106313020005                                 Darf Cod. 0289 Ref: 46784000888201091 Princ. R$ 3.       3158,240
+                                              621,42 multa R$ 1.086,43 e Juros R$ 2.071,81      
+2106                111020002                 Darf Cod. 0289 Ref: 46784000888201091 Princ. R$ 3.       6779,660
+                                              621,42 multa R$ 1.086,43 e Juros R$ 2.071,81      
+2106313040021                                 Darf Cod. 0289 Ref: 46784000909201079 Princ. R$ 4.       4025,330
+                                              025,33 multa R$ 1.207,60 e Juros R$ 2.302,89      
+2106313020005                                 Darf Cod. 0289 Ref: 46784000909201079 Princ. R$ 4.       3510,490
+                                              025,33 multa R$ 1.207,60 e Juros R$ 2.302,89      
+2106                111020002                 Darf Cod. 0289 Ref: 46784000909201079 Princ. R$ 4.       7535,820
+                                              025,33 multa R$ 1.207,60 e Juros R$ 2.302,89      
+2106313040021                                 Darf Cod. 0289 Ref: 46784000880201025 Princ. R$ 4.       4838,270
+                                              838,27 multa R$ 1.451,48 e Juros R$ 2.767,97      
+2106313020005                                 Darf Cod. 0289 Ref: 46784000880201025 Princ. R$ 4.       4219,450
+                                              838,27 multa R$ 1.451,48 e Juros R$ 2.767,97      
+2106                111020002                 Darf Cod. 0289 Ref: 46784000880201025 Princ. R$ 4.       9057,720
+                                              838,27 multa R$ 1.451,48 e Juros R$ 2.767,97      
+0507313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+3107111020002       211090003                 EMPRESTIMO DA CARROLL                                    2500,000
+3107313040021                                 DARF PGFN Cod. 3623 Ref. 5051800491540 Principal R       1140,000
+                                              $ 1.140,00 Multa R$ 342,00 Juros R$ 872,13        
+3107                111020002                 DARF PGFN Cod. 3623 Ref. 5051800491540 Principal R       2354,130
+                                              $ 1.140,00 Multa R$ 342,00 Juros R$ 872,13        
+3107313020005                                 DARF PGFN Cod. 3623 Ref. 5051800491540 Principal R       1214,130
+                                              $ 1.140,00 Multa R$ 342,00 Juros R$ 872,13        
+0608313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+3108111020002       211090003                 EMPRESTIMO DA CARROLL                                   12500,000
+3108313040021                                 Darf DAU Ref: 50518800491469  Princ. R$ 2.411,50 M       2411,500
+                                              ulta R$ 723,45 Juros R$ 1.859,19                  
+3108                111020002                 Darf DAU Ref: 50518800491469  Princ. R$ 2.411,50 M       4994,140
+                                              ulta R$ 723,45 Juros R$ 1.859,19                  
+3108313020005                                 Darf DAU Ref: 50518800491469  Princ. R$ 2.411,50 M       2582,640
+                                              ulta R$ 723,45 Juros R$ 1.859,19                  
+3108313040021                                 Darf DAU Ref: 50518800491388  Princ. R$ 3.621,42 M       3621,420
+                                              ulta R$ 1.086,42 Juros R$ 2.792,00                
+3108                111020002                 Darf DAU Ref: 50518800491388  Princ. R$ 3.621,42 M       7499,840
+                                              ulta R$ 1.086,42 Juros R$ 2.792,00                
+3108313020005                                 Darf DAU Ref: 50518800491388  Princ. R$ 3.621,42 M       3878,420
+                                              ulta R$ 1.086,42 Juros R$ 2.792,00                
+0509313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+0510313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+1710111020002       461010002                 Hertz LLC - Recebimento venda quotas capital socia      29540,000
+                                              l Hertz Ltda                                      
+1710111020002       461010002                 Receita de distribuicao de Lucros John Carroll - H      43340,530
+                                              ertz LTDA                                         
+1710211090003       111020002                 PAGAMENTO DE EMPRESTIMO                                 72500,000
+0511313030002       111020002                 Encargos limite de cred. 12,45%                             3,500
+0511313030004       111020002                 IOF s utilizacao limite                                     0,330
+0511313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+0512313030002       111020002                 Tarifa Pacote Mensal                                       79,750
+3112461010002                                 Transferencia para conta resultado                      72880,530
+3112                235010002                 Resultado de Transferencia                              72880,530
+3112                313020005                 Transferencia para conta resultado                      51992,620
+3112                313030002                 Transferencia para conta resultado                        953,000
+3112                313030004                 Transferencia para conta resultado                          0,330
+3112                313040021                 Transferencia para conta resultado                      58305,670
+3112                313060013                 Transferencia para conta resultado                       1891,000
+3112235010002                                 Resultado de Transferencia                             113142,620
