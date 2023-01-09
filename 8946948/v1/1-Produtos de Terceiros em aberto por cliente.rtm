@@ -1,0 +1,2001 @@
+object reportEditorRelatorio: TppReport
+  AutoStop = False
+  DataPipeline = daUniDacQueryDataView1.sql
+  PassSetting = psTwoPass
+  PrinterSetup.BinName = 'Default'
+  PrinterSetup.DocumentName = 'Report'
+  PrinterSetup.Duplex = dpNone
+  PrinterSetup.Orientation = poLandscape
+  PrinterSetup.PaperName = 'A4'
+  PrinterSetup.PrinterName = 'Default'
+  PrinterSetup.SaveDeviceSettings = False
+  PrinterSetup.mmMarginBottom = 10000
+  PrinterSetup.mmMarginLeft = 10000
+  PrinterSetup.mmMarginRight = 10000
+  PrinterSetup.mmMarginTop = 10000
+  PrinterSetup.mmPaperHeight = 210000
+  PrinterSetup.mmPaperWidth = 297000
+  PrinterSetup.PaperSize = 9
+  SaveAsTemplate = True
+  Template.DatabaseSettings.DataPipeline = plItem
+  Template.DatabaseSettings.Name = '1-Produtos de terceiros em aberto por cliente'
+  Template.DatabaseSettings.NameField = 'nome'
+  Template.DatabaseSettings.TemplateField = 'Template'
+  Template.FileName = 
+    'C:\Users\andre\OneDrive\Clientes\Agrimol\v1\1-Produtos de Tercei' +
+    'ros em aberto por cliente.rtm'
+  Template.Format = ftASCII
+  Units = utMillimeters
+  AllowPrintToArchive = True
+  AllowPrintToFile = True
+  ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
+  DeviceType = 'Screen'
+  DefaultFileDeviceType = 'PDF'
+  EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.Enabled = True
+  EmailSettings.ShowEmailDialog = True
+  LanguageID = 'Default'
+  OpenFile = False
+  OutlineSettings.CreateNode = True
+  OutlineSettings.CreatePageNodes = True
+  OutlineSettings.Enabled = False
+  OutlineSettings.Visible = False
+  ThumbnailSettings.Enabled = True
+  ThumbnailSettings.Visible = True
+  ThumbnailSettings.DeadSpace = 30
+  PDFSettings.EmbedFontOptions = []
+  PDFSettings.EncryptSettings.AllowCopy = True
+  PDFSettings.EncryptSettings.AllowInteract = True
+  PDFSettings.EncryptSettings.AllowModify = True
+  PDFSettings.EncryptSettings.AllowPrint = True
+  PDFSettings.EncryptSettings.AllowExtract = True
+  PDFSettings.EncryptSettings.AllowAssemble = True
+  PDFSettings.EncryptSettings.AllowQualityPrint = True
+  PDFSettings.EncryptSettings.Enabled = False
+  PDFSettings.EncryptSettings.KeyLength = kl40Bit
+  PDFSettings.EncryptSettings.EncryptionType = etRC4
+  PDFSettings.FontEncoding = feAnsi
+  PDFSettings.ImageCompressionLevel = 25
+  PreviewFormSettings.WindowState = wsMaximized
+  PreviewFormSettings.ZoomSetting = zsPageWidth
+  RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
+  RTFSettings.DefaultFont.Color = clWindowText
+  RTFSettings.DefaultFont.Height = -13
+  RTFSettings.DefaultFont.Name = 'Arial'
+  RTFSettings.DefaultFont.Style = []
+  TextFileName = '($MyDocuments)\Report.pdf'
+  TextSearchSettings.DefaultString = '<Texto a localizar>'
+  TextSearchSettings.Enabled = True
+  XLSSettings.AppName = 'ReportBuilder'
+  XLSSettings.Author = 'ReportBuilder'
+  XLSSettings.Subject = 'Report'
+  XLSSettings.Title = 'Report'
+  XLSSettings.WorksheetName = 'Report'
+  Left = 488
+  Top = 65
+  Version = '17.02'
+  mmColumnWidth = 0
+  DataPipelineName = 'sql'
+  object ppHeaderBand1: TppHeaderBand
+    Background.Brush.Style = bsClear
+    mmBottomOffset = 0
+    mmHeight = 15452
+    mmPrintPosition = 0
+    object ppShape13: TppShape
+      DesignLayer = ppDesignLayer12
+      UserName = '__InternoppCabecalhoShapeEx1'
+      Brush.Color = 15724527
+      ParentWidth = True
+      Pen.Style = psClear
+      mmHeight = 13758
+      mmLeft = 0
+      mmTop = 0
+      mmWidth = 277000
+      BandType = 0
+      LayerName = BandLayer2
+    end
+    object ppLabel90: TppLabel
+      DesignLayer = ppDesignLayer12
+      UserName = '__InternoppNasajonEx1'
+      Caption = 'Nasajon'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3387
+      mmLeft = 212
+      mmTop = 0
+      mmWidth = 9948
+      BandType = 0
+      LayerName = BandLayer2
+    end
+    object ppSystemVariable4: TppSystemVariable
+      Tag = 7
+      DesignLayer = ppDesignLayer12
+      UserName = '__InternoppDataEx1'
+      VarType = vtDateTime
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3386
+      mmLeft = 212
+      mmTop = 9737
+      mmWidth = 24976
+      BandType = 0
+      LayerName = BandLayer2
+    end
+    object NumeroPaginaFim: TppSystemVariable
+      DesignLayer = ppDesignLayer12
+      UserName = 'ContaPagina1'
+      HyperlinkEnabled = False
+      VarType = vtPageSetDesc
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3386
+      mmLeft = 259294
+      mmTop = 9737
+      mmWidth = 16933
+      BandType = 0
+      LayerName = BandLayer2
+    end
+    object ppLabel17: TppLabel
+      DesignLayer = ppDesignLayer12
+      UserName = 'Label3'
+      AutoSize = False
+      Caption = 'Relat'#243'rio de produtos de terceiros em aberto por cliente'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4023
+      mmLeft = 0
+      mmTop = 5077
+      mmWidth = 277072
+      BandType = 0
+      LayerName = BandLayer2
+    end
+    object ppLabel18: TppLabel
+      DesignLayer = ppDesignLayer12
+      UserName = 'Label18'
+      Caption = 'Agrimol'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 266702
+      mmTop = 0
+      mmWidth = 9525
+      BandType = 0
+      LayerName = BandLayer2
+    end
+  end
+  object ppDetailBand7: TppDetailBand
+    Background1.Brush.Style = bsClear
+    Background2.Brush.Style = bsClear
+    mmBottomOffset = 0
+    mmHeight = 4022
+    mmPrintPosition = 0
+    object ppDBText8: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText8'
+      DataField = 'item_especificacao'
+      DataPipeline = daUniDacQueryDataView1.sql
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      Transparent = True
+      Visible = False
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 0
+      mmTop = 0
+      mmWidth = 111125
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppDBText10: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText10'
+      DataField = 'numero_nfs'
+      DataPipeline = daUniDacQueryDataView1.sql
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      Transparent = True
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 114338
+      mmTop = 0
+      mmWidth = 14500
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppDBText16: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText16'
+      DataField = 'serie_nfs'
+      DataPipeline = daUniDacQueryDataView1.sql
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      Transparent = True
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 132122
+      mmTop = 0
+      mmWidth = 6354
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppDBText17: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText17'
+      DataField = 'emissao_nfs'
+      DataPipeline = daUniDacQueryDataView1.sql
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      Transparent = True
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 143133
+      mmTop = 0
+      mmWidth = 14765
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppDBText18: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText18'
+      DataField = 'dias_nfs'
+      DataPipeline = daUniDacQueryDataView1.sql
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 160069
+      mmTop = 0
+      mmWidth = 5715
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppDBText19: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText19'
+      DataField = 'cfop_nfs'
+      DataPipeline = daUniDacQueryDataView1.sql
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      Transparent = True
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 170442
+      mmTop = 0
+      mmWidth = 7305
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppDBText20: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText20'
+      DataField = 'quantidade_nfs'
+      DataPipeline = daUniDacQueryDataView1.sql
+      DisplayFormat = '#,0.00;-#,0.00'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 180600
+      mmTop = 0
+      mmWidth = 16087
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppVariable1: TppVariable
+      DesignLayer = ppDesignLayer12
+      UserName = 'Variable1'
+      BlankWhenZero = False
+      CalcOrder = 0
+      CalcType = veDataPipelineTraversal
+      DataType = dtDouble
+      DisplayFormat = '#,0.00;-#,0.00'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      ResetComponent = ppGroup2
+      ResetType = veGroupEnd
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3387
+      mmLeft = 200051
+      mmTop = 0
+      mmWidth = 16087
+      BandType = 4
+      LayerName = BandLayer2
+      CalcDataPipelineName = 'sql'
+    end
+    object ppDBText23: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText201'
+      DataField = 'valor_nfs'
+      DataPipeline = daUniDacQueryDataView1.sql
+      DisplayFormat = '#,0.00;-#,0.00'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 219730
+      mmTop = 0
+      mmWidth = 16087
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppDBText24: TppDBText
+      DesignLayer = ppDesignLayer12
+      UserName = 'DBText24'
+      DataField = 'total_nfs'
+      DataPipeline = daUniDacQueryDataView1.sql
+      DisplayFormat = '#,0.00;-#,0.00'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      DataPipelineName = 'sql'
+      mmHeight = 3598
+      mmLeft = 238356
+      mmTop = 0
+      mmWidth = 16087
+      BandType = 4
+      LayerName = BandLayer2
+    end
+    object ppVariable5: TppVariable
+      DesignLayer = ppDesignLayer12
+      UserName = 'Variable5'
+      BlankWhenZero = False
+      CalcOrder = 1
+      DataType = dtDouble
+      DisplayFormat = '#,0.00;-#,0.00'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      ResetComponent = ppGroup2
+      ResetType = veGroupEnd
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3387
+      mmLeft = 260585
+      mmTop = 0
+      mmWidth = 16087
+      BandType = 4
+      LayerName = BandLayer2
+    end
+  end
+  object ppFooterBand3: TppFooterBand
+    Background.Brush.Style = bsClear
+    mmBottomOffset = 0
+    mmHeight = 0
+    mmPrintPosition = 0
+  end
+  object ppSummaryBand3: TppSummaryBand
+    Background.Brush.Style = bsClear
+    PrintHeight = phDynamic
+    mmBottomOffset = 0
+    mmHeight = 7144
+    mmPrintPosition = 0
+    object ppVariable4: TppVariable
+      DesignLayer = ppDesignLayer12
+      UserName = 'Variable4'
+      BlankWhenZero = False
+      CalcOrder = 0
+      CalcComponent = ppGroup1
+      CalcType = veGroupBeforeFooter
+      DataType = dtDouble
+      DisplayFormat = '#,0.00;-#,0.00'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = [fsBold]
+      ResetType = veReportStart
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3387
+      mmLeft = 203226
+      mmTop = 0
+      mmWidth = 12912
+      BandType = 7
+      LayerName = BandLayer2
+    end
+    object ppLine8: TppLine
+      DesignLayer = ppDesignLayer12
+      UserName = 'Line8'
+      Pen.Width = 2
+      ParentWidth = True
+      Weight = 1.500000000000000000
+      mmHeight = 1270
+      mmLeft = 0
+      mmTop = 3811
+      mmWidth = 277000
+      BandType = 7
+      LayerName = BandLayer2
+    end
+    object ppLabel13: TppLabel
+      DesignLayer = ppDesignLayer12
+      UserName = 'Label13'
+      Caption = 'TOTAL'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 3387
+      mmLeft = 0
+      mmTop = 0
+      mmWidth = 9102
+      BandType = 7
+      LayerName = BandLayer2
+    end
+    object ppVariable8: TppVariable
+      DesignLayer = ppDesignLayer12
+      UserName = 'Variable8'
+      BlankWhenZero = False
+      CalcOrder = 1
+      CalcComponent = ppGroup1
+      CalcType = veGroupBeforeFooter
+      DataType = dtDouble
+      DisplayFormat = '#,0.00;-#,0.00'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = [fsBold]
+      ResetType = veReportStart
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3387
+      mmLeft = 263760
+      mmTop = 0
+      mmWidth = 12912
+      BandType = 7
+      LayerName = BandLayer2
+    end
+  end
+  object ppGroup1: TppGroup
+    BreakName = 'cliente'
+    DataPipeline = daUniDacQueryDataView1.sql
+    GroupFileSettings.NewFile = False
+    GroupFileSettings.EmailFile = False
+    OutlineSettings.CreateNode = True
+    NewPage = True
+    StartOnOddPage = False
+    UserName = 'Group1'
+    mmNewColumnThreshold = 0
+    mmNewPageThreshold = 0
+    DataPipelineName = 'sql'
+    NewFile = False
+    object ppGroupHeaderBand1: TppGroupHeaderBand
+      Background.Brush.Style = bsClear
+      mmBottomOffset = 0
+      mmHeight = 11430
+      mmPrintPosition = 0
+      object ppDBText3: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText3'
+        AutoSize = True
+        Color = 15724527
+        DataField = 'cliente'
+        DataPipeline = daUniDacQueryDataView1.sql
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        DataPipelineName = 'sql'
+        mmHeight = 3704
+        mmLeft = 0
+        mmTop = 3704
+        mmWidth = 111654
+        BandType = 3
+        GroupNo = 0
+        LayerName = BandLayer2
+      end
+      object ppLabel11: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label2'
+        Caption = 'Cliente'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsUnderline]
+        Transparent = True
+        mmHeight = 3387
+        mmLeft = 0
+        mmTop = 0
+        mmWidth = 8467
+        BandType = 3
+        GroupNo = 0
+        LayerName = BandLayer2
+      end
+    end
+    object ppGroupFooterBand1: TppGroupFooterBand
+      Background.Brush.Style = bsClear
+      HideWhenOneDetail = False
+      mmBottomOffset = 0
+      mmHeight = 5027
+      mmPrintPosition = 0
+      object ppVariable3: TppVariable
+        DesignLayer = ppDesignLayer12
+        UserName = 'Variable3'
+        BlankWhenZero = False
+        CalcOrder = 0
+        CalcComponent = ppGroup3
+        CalcType = veGroupBeforeFooter
+        DataType = dtDouble
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        ResetComponent = ppGroup1
+        ResetType = veGroupEnd
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3387
+        mmLeft = 203226
+        mmTop = 742
+        mmWidth = 12912
+        BandType = 5
+        GroupNo = 0
+        LayerName = BandLayer2
+      end
+      object ppLine5: TppLine
+        DesignLayer = ppDesignLayer12
+        UserName = 'Line5'
+        Pen.Width = 2
+        ParentWidth = True
+        Weight = 1.500000000000000000
+        mmHeight = 1481
+        mmLeft = 0
+        mmTop = 0
+        mmWidth = 277000
+        BandType = 5
+        GroupNo = 0
+        LayerName = BandLayer2
+      end
+      object ppLine6: TppLine
+        DesignLayer = ppDesignLayer12
+        UserName = 'Line6'
+        Pen.Width = 2
+        ParentWidth = True
+        Weight = 1.500000000000000000
+        mmHeight = 633
+        mmLeft = 0
+        mmTop = 4394
+        mmWidth = 277000
+        BandType = 5
+        GroupNo = 0
+        LayerName = BandLayer2
+      end
+      object ppLabel3: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label1'
+        Caption = 'SUBTOTAL'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        Transparent = True
+        mmHeight = 3386
+        mmLeft = 0
+        mmTop = 742
+        mmWidth = 14817
+        BandType = 5
+        GroupNo = 0
+        LayerName = BandLayer2
+      end
+      object ppVariable7: TppVariable
+        DesignLayer = ppDesignLayer12
+        UserName = 'Variable7'
+        BlankWhenZero = False
+        CalcOrder = 1
+        CalcComponent = ppGroup3
+        CalcType = veGroupBeforeFooter
+        DataType = dtDouble
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        ResetComponent = ppGroup1
+        ResetType = veGroupEnd
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3387
+        mmLeft = 263760
+        mmTop = 742
+        mmWidth = 12912
+        BandType = 5
+        GroupNo = 0
+        LayerName = BandLayer2
+      end
+    end
+  end
+  object ppGroup2: TppGroup
+    BreakName = 'numero_nfe'
+    DataPipeline = daUniDacQueryDataView1.sql
+    GroupFileSettings.NewFile = False
+    GroupFileSettings.EmailFile = False
+    KeepTogether = True
+    OutlineSettings.CreateNode = True
+    StartOnOddPage = False
+    UserName = 'Group2'
+    mmNewColumnThreshold = 0
+    mmNewPageThreshold = 0
+    DataPipelineName = 'sql'
+    NewFile = False
+    object ppGroupHeaderBand2: TppGroupHeaderBand
+      Background.Brush.Style = bsClear
+      mmBottomOffset = 0
+      mmHeight = 0
+      mmPrintPosition = 0
+    end
+    object ppGroupFooterBand2: TppGroupFooterBand
+      Background.Brush.Style = bsClear
+      HideWhenOneDetail = False
+      mmBottomOffset = 0
+      mmHeight = 0
+      mmPrintPosition = 0
+    end
+  end
+  object ppGroup3: TppGroup
+    BreakName = 'item'
+    DataPipeline = daUniDacQueryDataView1.sql
+    GroupFileSettings.NewFile = False
+    GroupFileSettings.EmailFile = False
+    KeepTogether = True
+    OutlineSettings.CreateNode = True
+    StartOnOddPage = False
+    UserName = 'Group3'
+    mmNewColumnThreshold = 0
+    mmNewPageThreshold = 0
+    DataPipelineName = 'sql'
+    NewFile = False
+    object ppGroupHeaderBand3: TppGroupHeaderBand
+      Background.Brush.Style = bsClear
+      mmBottomOffset = 0
+      mmHeight = 8202
+      mmPrintPosition = 0
+      object ppDBText5: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText5'
+        DataField = 'item_especificacao'
+        DataPipeline = daUniDacQueryDataView1.sql
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 0
+        mmTop = 3604
+        mmWidth = 111125
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText7: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText7'
+        DataField = 'numero_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 114338
+        mmTop = 3604
+        mmWidth = 14500
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText11: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText11'
+        DataField = 'serie_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 132122
+        mmTop = 3604
+        mmWidth = 6350
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText12: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText12'
+        DataField = 'emissao_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 143133
+        mmTop = 3604
+        mmWidth = 14765
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText13: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText13'
+        DataField = 'dias_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 160069
+        mmTop = 3604
+        mmWidth = 5715
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText14: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText14'
+        DataField = 'cfop_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 170442
+        mmTop = 3604
+        mmWidth = 7305
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText15: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText15'
+        DataField = 'quantidade_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 180600
+        mmTop = 3604
+        mmWidth = 16087
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText21: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText21'
+        DataField = 'quantidade_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 200051
+        mmTop = 3604
+        mmWidth = 16087
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLine2: TppLine
+        DesignLayer = ppDesignLayer12
+        UserName = 'Line1'
+        ParentWidth = True
+        Weight = 0.600000023841857900
+        mmHeight = 423
+        mmLeft = 0
+        mmTop = 7625
+        mmWidth = 277000
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLine3: TppLine
+        DesignLayer = ppDesignLayer12
+        UserName = 'Line3'
+        ParentWidth = True
+        Weight = 0.600000023841857900
+        mmHeight = 845
+        mmLeft = 0
+        mmTop = 3180
+        mmWidth = 277000
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText4: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText4'
+        DataField = 'valor_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 219729
+        mmTop = 3603
+        mmWidth = 16087
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText22: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText22'
+        DataField = 'total_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 238356
+        mmTop = 3603
+        mmWidth = 16087
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBText25: TppDBText
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBText25'
+        DataField = 'total_nfe'
+        DataPipeline = daUniDacQueryDataView1.sql
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 260585
+        mmTop = 3603
+        mmWidth = 16087
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel12: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label12'
+        Caption = 'Descri'#231#227'o'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 0
+        mmTop = 0
+        mmWidth = 12171
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel4: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label4'
+        Caption = 'Docto'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 114300
+        mmTop = 0
+        mmWidth = 7144
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel5: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label5'
+        Caption = 'S'#233'rie'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 132027
+        mmTop = 0
+        mmWidth = 6350
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel6: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label6'
+        Caption = 'Emiss'#227'o'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 143140
+        mmTop = 0
+        mmWidth = 10848
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel7: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label7'
+        Caption = 'Dias'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 160338
+        mmTop = 0
+        mmWidth = 5556
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel8: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label8'
+        Caption = 'CFOP'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 170392
+        mmTop = 0
+        mmWidth = 7673
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel9: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label9'
+        Caption = 'Quantidade'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 182563
+        mmTop = 0
+        mmWidth = 14023
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel10: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label10'
+        Caption = 'Saldo'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 209021
+        mmTop = 0
+        mmWidth = 6879
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel14: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label101'
+        Caption = 'Unit'#225'rio'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 226484
+        mmTop = 0
+        mmWidth = 9260
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel15: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label15'
+        Caption = 'Vlr. Nota'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 243682
+        mmTop = 0
+        mmWidth = 10848
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLabel16: TppLabel
+        DesignLayer = ppDesignLayer12
+        UserName = 'Label16'
+        Caption = 'Vlr. Saldo'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3440
+        mmLeft = 264584
+        mmTop = 0
+        mmWidth = 12171
+        BandType = 3
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+    end
+    object ppGroupFooterBand3: TppGroupFooterBand
+      Background.Brush.Style = bsClear
+      HideWhenOneDetail = False
+      mmBottomOffset = 0
+      mmHeight = 5821
+      mmPrintPosition = 0
+      object ppDBCalc1: TppDBCalc
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBCalc1'
+        DataField = 'quantidade_nfs'
+        DataPipeline = daUniDacQueryDataView1.sql
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        ResetGroup = ppGroup3
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 180600
+        mmTop = 477
+        mmWidth = 16087
+        BandType = 5
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppVariable2: TppVariable
+        DesignLayer = ppDesignLayer12
+        UserName = 'Variable2'
+        BlankWhenZero = False
+        CalcOrder = 0
+        DataType = dtDouble
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        ResetComponent = ppGroup3
+        ResetType = veGroupEnd
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3387
+        mmLeft = 203226
+        mmTop = 477
+        mmWidth = 12912
+        BandType = 5
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppLine4: TppLine
+        DesignLayer = ppDesignLayer12
+        UserName = 'Line4'
+        ParentWidth = True
+        Weight = 0.600000023841857900
+        mmHeight = 2117
+        mmLeft = 0
+        mmTop = 0
+        mmWidth = 277000
+        BandType = 5
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppVariable6: TppVariable
+        DesignLayer = ppDesignLayer12
+        UserName = 'Variable6'
+        BlankWhenZero = False
+        CalcOrder = 1
+        DataType = dtDouble
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        ResetComponent = ppGroup3
+        ResetType = veGroupEnd
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3387
+        mmLeft = 263760
+        mmTop = 477
+        mmWidth = 12912
+        BandType = 5
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+      object ppDBCalc2: TppDBCalc
+        DesignLayer = ppDesignLayer12
+        UserName = 'DBCalc2'
+        DataField = 'total_nfs'
+        DataPipeline = daUniDacQueryDataView1.sql
+        DisplayFormat = '#,0.00;-#,0.00'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = [fsBold]
+        ResetGroup = ppGroup3
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'sql'
+        mmHeight = 3598
+        mmLeft = 238356
+        mmTop = 477
+        mmWidth = 16087
+        BandType = 5
+        GroupNo = 2
+        LayerName = BandLayer2
+      end
+    end
+  end
+  object daDataModule1: TdaDataModule
+    object daUniDacQueryDataView1: TdaUniDacQueryDataView
+      UserName = 'Query_sql'
+      Height = 445
+      Left = 10
+      NameColumnWidth = 105
+      SizeColumnWidth = 35
+      SortMode = 0
+      Top = 10
+      TypeColumnWidth = 52
+      Width = 298
+      AutoSearchTabOrder = 0
+      object sql: TppChildDBPipeline
+        AutoCreateFields = False
+        UserName = 'sql'
+        object ppField1: TppField
+          FieldAlias = 'item'
+          FieldName = 'item'
+          FieldLength = 60
+          DisplayWidth = 60
+          Position = 0
+        end
+        object ppField2: TppField
+          FieldAlias = 'item_especificacao'
+          FieldName = 'item_especificacao'
+          FieldLength = 0
+          Linkable = False
+          DataType = dtMemo
+          DisplayWidth = 10
+          Position = 1
+        end
+        object ppField3: TppField
+          FieldAlias = 'cliente'
+          FieldName = 'cliente'
+          FieldLength = 0
+          Linkable = False
+          DataType = dtMemo
+          DisplayWidth = 10
+          Position = 2
+        end
+        object ppField4: TppField
+          FieldAlias = 'numero_nfe'
+          FieldName = 'numero_nfe'
+          FieldLength = 15
+          DisplayWidth = 15
+          Position = 3
+        end
+        object ppField5: TppField
+          FieldAlias = 'emissao_nfe'
+          FieldName = 'emissao_nfe'
+          FieldLength = 0
+          DataType = dtDate
+          DisplayWidth = 10
+          Position = 4
+        end
+        object ppField6: TppField
+          FieldAlias = 'dias_nfe'
+          FieldName = 'dias_nfe'
+          FieldLength = 0
+          DataType = dtInteger
+          DisplayWidth = 10
+          Position = 5
+        end
+        object ppField7: TppField
+          FieldAlias = 'serie_nfe'
+          FieldName = 'serie_nfe'
+          FieldLength = 3
+          DisplayWidth = 3
+          Position = 6
+        end
+        object ppField8: TppField
+          FieldAlias = 'quantidade_nfe'
+          FieldName = 'quantidade_nfe'
+          FieldLength = 0
+          DataType = dtDouble
+          DisplayWidth = 10
+          Position = 7
+        end
+        object ppField9: TppField
+          FieldAlias = 'valor_nfe'
+          FieldName = 'valor_nfe'
+          FieldLength = 2
+          DataType = dtDouble
+          DisplayWidth = 19
+          Position = 8
+        end
+        object ppField10: TppField
+          FieldAlias = 'total_nfe'
+          FieldName = 'total_nfe'
+          FieldLength = 0
+          DataType = dtDouble
+          DisplayWidth = 10
+          Position = 9
+        end
+        object ppField11: TppField
+          FieldAlias = 'numero_nfs'
+          FieldName = 'numero_nfs'
+          FieldLength = 15
+          DisplayWidth = 15
+          Position = 10
+        end
+        object ppField12: TppField
+          FieldAlias = 'emissao_nfs'
+          FieldName = 'emissao_nfs'
+          FieldLength = 0
+          DataType = dtDate
+          DisplayWidth = 10
+          Position = 11
+        end
+        object ppField13: TppField
+          FieldAlias = 'dias_nfs'
+          FieldName = 'dias_nfs'
+          FieldLength = 0
+          DataType = dtInteger
+          DisplayWidth = 10
+          Position = 12
+        end
+        object ppField14: TppField
+          FieldAlias = 'serie_nfs'
+          FieldName = 'serie_nfs'
+          FieldLength = 3
+          DisplayWidth = 3
+          Position = 13
+        end
+        object ppField15: TppField
+          FieldAlias = 'quantidade_nfs'
+          FieldName = 'quantidade_nfs'
+          FieldLength = 0
+          DataType = dtDouble
+          DisplayWidth = 10
+          Position = 14
+        end
+        object ppField16: TppField
+          FieldAlias = 'valor_nfs'
+          FieldName = 'valor_nfs'
+          FieldLength = 4
+          DataType = dtDouble
+          DisplayWidth = 19
+          Position = 15
+        end
+        object ppField17: TppField
+          FieldAlias = 'total_nfs'
+          FieldName = 'total_nfs'
+          FieldLength = 0
+          DataType = dtDouble
+          DisplayWidth = 10
+          Position = 16
+        end
+        object ppField18: TppField
+          FieldAlias = 'cfop_nfe'
+          FieldName = 'cfop_nfe'
+          FieldLength = 30
+          DisplayWidth = 30
+          Position = 17
+        end
+        object ppField19: TppField
+          FieldAlias = 'cfop_nfs'
+          FieldName = 'cfop_nfs'
+          FieldLength = 30
+          DisplayWidth = 30
+          Position = 18
+        end
+      end
+      object daSQL1: TdaSQL
+        DatabaseName = 'MyCnx'
+        DatabaseType = dtPostgreSQL
+        DataPipelineName = 'sql'
+        EditSQLAsText = True
+        IsCaseSensitive = True
+        LinkColor = clMaroon
+        LinkType = ltManualSQL
+        MaxSQLFieldAliasLength = 0
+        SQLText.Strings = (
+          'with'
+          ''
+          'nfe as ('
+          #9'select'
+          #9#9'df.id,'
+          #9#9'df.numero,'
+          #9#9'df.serie,'
+          #9#9'df.emissao,'
+          #9#9'current_date - df.emissao as dias,'
+          #9#9'df.id_cfop,'
+          #9#9'df.id_pessoa,'
+          #9#9'l.df_linha,'
+          #9#9'l.id_item,'
+          #9#9'l.valorunitariocomercial,'
+          #9#9'cfop.cfop,'
+          #9#9'p.pessoa|| '#39' - '#39' || p.nome as cliente'
+          #9'from ns.df_docfis df'
+          #9'join ns.df_linhas l on (l.id_docfis = df.id)'
+          #9'join ns.pessoas p on (p.id = df.id_pessoa)'
+          #9'join ns.cfop cfop on (cfop.id = df.id_cfop)'
+          #9'where'
+          #9#9'df.tipo = 0'
+          #9#9'and df.sinal = 1'
+          #9#9'and df.situacao = 2'
+          #9#9'and cfop.cfop in ('#39'1901'#39','#39'1902'#39','#39'1903'#39','#39'2901'#39','#39'2902'#39','#39'2903'#39')'
+          '),'
+          ''
+          'nfe_item as ('
+          #9'select'
+          #9#9'df.id id_docfis,'
+          #9#9'l.id_item,'
+          #9#9'sum(l.quantidadecomercial) as quantidadecomercial,'
+          #9#9'sum(l.valortotal) as valortotal'
+          #9'from ns.df_docfis df'
+          #9'join ns.df_linhas l on (l.id_docfis = df.id)'
+          #9'where'
+          #9#9'df.tipo = 0'
+          #9#9'and df.sinal = 1'
+          #9#9'and df.situacao = 2'
+          #9'group by 1,2'
+          '),'
+          ''
+          'nfe_pm as ('
+          #9'select'
+          #9#9'df.id id_docfis,'
+          #9#9'l.id_item,'
+          
+            #9#9'sum(l.quantidadecomercial * l.valorunitariocomercial / s.quant' +
+            'idadecomercial)::numeric(20,2) as pm'
+          #9'from ns.df_docfis df'
+          #9'join ns.df_linhas l on (l.id_docfis = df.id)'
+          
+            #9'join nfe_item s on (s.id_docfis = df.id and s.id_item = l.id_it' +
+            'em)'
+          #9'group by 1,2'
+          '),'
+          ''
+          'nfs as ('
+          #9'select'
+          #9#9'df.id,'
+          #9#9'df.numero,'
+          #9#9'df.serie,'
+          #9#9'df.emissao,'
+          #9#9'current_date - df.emissao as dias,'
+          #9#9'df.id_cfop,'
+          #9#9'df.id_pessoa,'
+          #9#9'l.id_docfis_origem,'
+          #9#9'l.id_linha_docfis_origem,'
+          #9#9'l.id_item,'
+          #9#9'l.quantidadecomercial *-1 as quantidadecomercial,'
+          #9#9'l.valorunitariocomercial,'
+          '    l.valortotal *-1 as valortotal,'
+          #9#9'cfop.cfop'
+          #9#9
+          #9'from ns.df_docfis df'
+          #9'join ns.df_linhas l on (l.id_docfis = df.id)'
+          #9'join ns.cfop cfop on (cfop.id = df.id_cfop)'
+          #9'where'
+          #9#9'df.tipo = 0'
+          #9#9'and df.sinal = 0'
+          #9#9'and df.situacao = 2'
+          
+            #9#9'and cfop.cfop in ('#39'5901'#39', '#39'5902'#39', '#39'5903'#39', '#39'6901'#39', '#39'6902'#39', '#39'690' +
+            '3'#39')'
+          '),'
+          ''
+          'saldo as ('
+          '  '
+          '  select'
+          '    nfe.id,'
+          '    nfe.id_item,'
+          '    nfe_item.quantidadecomercial,'
+          
+            '  '#9'nfe_item.quantidadecomercial + coalesce(sum(nfs.quantidadecom' +
+            'ercial),0) as saldo'
+          '  '
+          'from nfe'
+          
+            'join nfe_item on (nfe_item.id_docfis = nfe.id and nfe_item.id_it' +
+            'em = nfe.id_item)'
+          
+            'left join nfs on (nfs.id_docfis_origem = nfe.id and nfs.id_linha' +
+            '_docfis_origem = nfe.df_linha)'
+          ''
+          'group by 1,2,3'
+          ')'
+          ''
+          'select distinct'
+          #9'i.item,'
+          #9'i.item||'#39' - '#39'||i.especificacao as item_especificacao,'
+          #9'nfe.cliente,'
+          #9'nfe.numero numero_nfe,'
+          #9'nfe.emissao emissao_nfe,'
+          #9'nfe.dias as dias_nfe,'
+          #9'nfe.serie serie_nfe,'
+          #9'nfe_item.quantidadecomercial quantidade_nfe,'
+          #9'nfe_pm.pm valor_nfe,'
+          #9'--nfe.valorunitariocomercial as valor_nfe,'
+          #9'nfe_item.valortotal as total_nfe,'
+          #9'nfs.numero numero_nfs,'
+          #9'nfs.emissao emissao_nfs,'
+          #9'nfs.dias as dias_nfs,'
+          '  nfs.serie serie_nfs, '
+          #9'nfs.quantidadecomercial quantidade_nfs,'
+          #9'nfs.valorunitariocomercial valor_nfs,'
+          #9'nfs.valortotal total_nfs,'
+          #9'nfe.cfop as cfop_nfe,'
+          #9'nfs.cfop as cfop_nfs'
+          #9
+          'from nfe'
+          
+            'join nfe_item on (nfe_item.id_docfis = nfe.id and nfe_item.id_it' +
+            'em = nfe.id_item)'
+          
+            'join nfe_pm on (nfe_pm.id_docfis = nfe.id and nfe_pm.id_item = n' +
+            'fe.id_item)'
+          'join estoque.itens i on (i.id = nfe.id_item)'
+          'join saldo s on (s.id = nfe.id)'
+          
+            'left join nfs on (nfs.id_docfis_origem = nfe.id and nfs.id_linha' +
+            '_docfis_origem = nfe.df_linha)'
+          'where '
+          '  s.saldo > 0'
+          ''
+          'order by i.item, nfe.numero, nfs.numero'
+          ''
+          ''
+          #9#9
+          #9#9)
+        SQLType = sqSQL2
+        object daField1: TdaField
+          Alias = 'item'
+          DisplayWidth = 60
+          FieldAlias = 'item'
+          FieldLength = 60
+          FieldName = 'item'
+          SQLFieldName = 'item'
+        end
+        object daField2: TdaField
+          Alias = 'item_especificacao'
+          DataType = dtMemo
+          DisplayWidth = 10
+          FieldAlias = 'item_especificacao'
+          FieldLength = 0
+          FieldName = 'item_especificacao'
+          Linkable = False
+          SQLFieldName = 'item_especificacao'
+        end
+        object daField3: TdaField
+          Alias = 'cliente'
+          DataType = dtMemo
+          DisplayWidth = 10
+          FieldAlias = 'cliente'
+          FieldLength = 0
+          FieldName = 'cliente'
+          Linkable = False
+          SQLFieldName = 'cliente'
+        end
+        object daField4: TdaField
+          Alias = 'numero_nfe'
+          DisplayWidth = 15
+          FieldAlias = 'numero_nfe'
+          FieldLength = 15
+          FieldName = 'numero_nfe'
+          SQLFieldName = 'numero_nfe'
+        end
+        object daField5: TdaField
+          Alias = 'emissao_nfe'
+          DataType = dtDate
+          DisplayWidth = 10
+          FieldAlias = 'emissao_nfe'
+          FieldLength = 0
+          FieldName = 'emissao_nfe'
+          SQLFieldName = 'emissao_nfe'
+        end
+        object daField6: TdaField
+          Alias = 'dias_nfe'
+          DataType = dtInteger
+          DisplayWidth = 10
+          FieldAlias = 'dias_nfe'
+          FieldLength = 0
+          FieldName = 'dias_nfe'
+          SQLFieldName = 'dias_nfe'
+        end
+        object daField7: TdaField
+          Alias = 'serie_nfe'
+          DisplayWidth = 3
+          FieldAlias = 'serie_nfe'
+          FieldLength = 3
+          FieldName = 'serie_nfe'
+          SQLFieldName = 'serie_nfe'
+        end
+        object daField8: TdaField
+          Alias = 'quantidade_nfe'
+          DataType = dtDouble
+          DisplayWidth = 10
+          FieldAlias = 'quantidade_nfe'
+          FieldLength = 0
+          FieldName = 'quantidade_nfe'
+          SQLFieldName = 'quantidade_nfe'
+        end
+        object daField9: TdaField
+          Alias = 'valor_nfe'
+          DataType = dtDouble
+          DisplayWidth = 19
+          FieldAlias = 'valor_nfe'
+          FieldLength = 2
+          FieldName = 'valor_nfe'
+          SQLFieldName = 'valor_nfe'
+        end
+        object daField10: TdaField
+          Alias = 'total_nfe'
+          DataType = dtDouble
+          DisplayWidth = 10
+          FieldAlias = 'total_nfe'
+          FieldLength = 0
+          FieldName = 'total_nfe'
+          SQLFieldName = 'total_nfe'
+        end
+        object daField11: TdaField
+          Alias = 'numero_nfs'
+          DisplayWidth = 15
+          FieldAlias = 'numero_nfs'
+          FieldLength = 15
+          FieldName = 'numero_nfs'
+          SQLFieldName = 'numero_nfs'
+        end
+        object daField12: TdaField
+          Alias = 'emissao_nfs'
+          DataType = dtDate
+          DisplayWidth = 10
+          FieldAlias = 'emissao_nfs'
+          FieldLength = 0
+          FieldName = 'emissao_nfs'
+          SQLFieldName = 'emissao_nfs'
+        end
+        object daField13: TdaField
+          Alias = 'dias_nfs'
+          DataType = dtInteger
+          DisplayWidth = 10
+          FieldAlias = 'dias_nfs'
+          FieldLength = 0
+          FieldName = 'dias_nfs'
+          SQLFieldName = 'dias_nfs'
+        end
+        object daField14: TdaField
+          Alias = 'serie_nfs'
+          DisplayWidth = 3
+          FieldAlias = 'serie_nfs'
+          FieldLength = 3
+          FieldName = 'serie_nfs'
+          SQLFieldName = 'serie_nfs'
+        end
+        object daField15: TdaField
+          Alias = 'quantidade_nfs'
+          DataType = dtDouble
+          DisplayWidth = 10
+          FieldAlias = 'quantidade_nfs'
+          FieldLength = 0
+          FieldName = 'quantidade_nfs'
+          SQLFieldName = 'quantidade_nfs'
+        end
+        object daField16: TdaField
+          Alias = 'valor_nfs'
+          DataType = dtDouble
+          DisplayWidth = 19
+          FieldAlias = 'valor_nfs'
+          FieldLength = 4
+          FieldName = 'valor_nfs'
+          SQLFieldName = 'valor_nfs'
+        end
+        object daField17: TdaField
+          Alias = 'total_nfs'
+          DataType = dtDouble
+          DisplayWidth = 10
+          FieldAlias = 'total_nfs'
+          FieldLength = 0
+          FieldName = 'total_nfs'
+          SQLFieldName = 'total_nfs'
+        end
+        object daField18: TdaField
+          Alias = 'cfop_nfe'
+          DisplayWidth = 30
+          FieldAlias = 'cfop_nfe'
+          FieldLength = 30
+          FieldName = 'cfop_nfe'
+          SQLFieldName = 'cfop_nfe'
+        end
+        object daField19: TdaField
+          Alias = 'cfop_nfs'
+          DisplayWidth = 30
+          FieldAlias = 'cfop_nfs'
+          FieldLength = 30
+          FieldName = 'cfop_nfs'
+          SQLFieldName = 'cfop_nfs'
+        end
+      end
+    end
+  end
+  object raCodeModule2: TraCodeModule
+    object raProgramInfo4: TraProgramInfo
+      raClassName = 'TraVarProgram'
+      raProgram.ChildType = 17
+      raProgram.ProgramName = 'Variables'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variables;'#13#10'var'#13#10'  LeftNomeIdentado: Integer;'#13#10'  statu' +
+        'sZebra: Boolean;'#13#10#13#10'begin'#13#10#13#10'end;'#13#10
+      raProgram.CaretPos = (
+        3
+        2)
+    end
+    object raProgramInfo5: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'ReportBeforePrint'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure ReportBeforePrint;'#13#10'begin'#13#10'   LeftNomeIdentado := Left' +
+        'NomeIdentado;'#13#10'   '#13#10'end;'#13#10
+      raProgram.ComponentName = 'Report'
+      raProgram.EventName = 'BeforePrint'
+      raProgram.EventID = 1
+      raProgram.CaretPos = (
+        4
+        4)
+    end
+    object raProgramInfo6: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'HeaderBeforePrint'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure HeaderBeforePrint;'#13#10'begin'#13#10'   statusZebra := True;'#13#10'en' +
+        'd;'#13#10
+      raProgram.ComponentName = 'Header'
+      raProgram.EventName = 'BeforePrint'
+      raProgram.EventID = 24
+      raProgram.CaretPos = (
+        0
+        0)
+    end
+    object raProgramInfo7: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable1OnCalc'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable1OnCalc(var Value: Variant);'#13#10'begin'#13#10' //Variab' +
+        'le1.Visible := True;'#13#10' //if DBText10.FieldValue = '#39#39' then'#13#10'//   ' +
+        ' Variable1.Visible := False;'#13#10'  if Value = 0 then '#13#10'    Value :=' +
+        ' sql['#39'quantidade_nfe'#39'] + sql['#39'quantidade_nfs'#39']   '#13#10'  else'#13#10'  Val' +
+        'ue := Value + sql['#39'quantidade_nfs'#39'];'#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable1'
+      raProgram.EventName = 'OnCalc'
+      raProgram.EventID = 33
+      raProgram.CaretPos = (
+        1
+        6)
+    end
+    object raProgramInfo8: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable2OnCalc'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable2OnCalc(var Value: Variant);'#13#10'begin'#13#10#13#10'  Value' +
+        ' := DBText15.FieldValue + DBCalc1.Value'#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable2'
+      raProgram.EventName = 'OnCalc'
+      raProgram.EventID = 33
+      raProgram.CaretPos = (
+        3
+        2)
+    end
+    object raProgramInfo9: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable3OnCalc'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable3OnCalc(var Value: Variant);'#13#10'begin'#13#10#13#10'  Value' +
+        ' := Value + Variable2.Text'#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable3'
+      raProgram.EventName = 'OnCalc'
+      raProgram.EventID = 33
+      raProgram.CaretPos = (
+        3
+        2)
+    end
+    object raProgramInfo10: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable4OnCalc'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable4OnCalc(var Value: Variant);'#13#10'begin'#13#10#13#10'  Value' +
+        ' := Value + Variable3.Value'#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable4'
+      raProgram.EventName = 'OnCalc'
+      raProgram.EventID = 33
+      raProgram.CaretPos = (
+        0
+        0)
+    end
+    object raProgramInfo11: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable5OnCalc'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable5OnCalc(var Value: Variant);'#13#10'begin'#13#10'  if Valu' +
+        'e = 0 then'#13#10'    Value := sql['#39'total_nfe'#39'] + sql['#39'total_nfs'#39']'#13#10'  ' +
+        'else'#13#10'  Value := Value + sql['#39'total_nfs'#39'] ;'#13#10'  if Value < 1 then' +
+        #13#10'    Value := 0;'#13#10'  '#13#10'  '#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable5'
+      raProgram.EventName = 'OnCalc'
+      raProgram.EventID = 33
+      raProgram.CaretPos = (
+        3
+        3)
+    end
+    object raProgramInfo12: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable6OnCalc'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable6OnCalc(var Value: Variant);'#13#10'begin'#13#10#13#10'  Value' +
+        ' := DBText22.FieldValue + DBCalc2.Value'#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable6'
+      raProgram.EventName = 'OnCalc'
+      raProgram.EventID = 33
+      raProgram.CaretPos = (
+        3
+        2)
+    end
+    object raProgramInfo13: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable7OnCalc'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable7OnCalc(var Value: Variant);'#13#10'begin'#13#10#13#10'  Value' +
+        ' := Value + Variable6.Value'#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable7'
+      raProgram.EventName = 'OnCalc'
+      raProgram.EventID = 33
+      raProgram.CaretPos = (
+        0
+        0)
+    end
+    object raProgramInfo14: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable8OnCalc'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable8OnCalc(var Value: Variant);'#13#10'begin'#13#10#13#10'  Value' +
+        ' := Value + Variable7.Value'#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable8'
+      raProgram.EventName = 'OnCalc'
+      raProgram.EventID = 33
+      raProgram.CaretPos = (
+        0
+        0)
+    end
+    object raProgramInfo15: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'ReportOnAutoSearchDialogClose'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 'procedure ReportOnAutoSearchDialogClose;'#13#10'begin'#13#10#13#10'end;'#13#10
+      raProgram.ComponentName = 'Report'
+      raProgram.EventName = 'OnAutoSearchDialogClose'
+      raProgram.EventID = 11
+      raProgram.CaretPos = (
+        3
+        3)
+    end
+    object raProgramInfo16: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable1OnPrint'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable1OnPrint;'#13#10'begin'#13#10'  if sql['#39'numero_nfs'#39'] = '#39#39' ' +
+        'then'#13#10'  Variable1.Visible := False'#13#10'  else'#13#10'  Variable1.Visible ' +
+        ':= True;'#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable1'
+      raProgram.EventName = 'OnPrint'
+      raProgram.EventID = 32
+      raProgram.CaretPos = (
+        33
+        6)
+    end
+    object raProgramInfo17: TraProgramInfo
+      raClassName = 'TraEventHandler'
+      raProgram.ProgramName = 'Variable5OnPrint'
+      raProgram.ProgramType = ttProcedure
+      raProgram.Source = 
+        'procedure Variable5OnPrint;'#13#10'begin'#13#10'  if sql['#39'numero_nfs'#39'] = '#39#39' ' +
+        'then'#13#10'  Variable5.Visible := False'#13#10'  else'#13#10'  Variable5.Visible ' +
+        ':= True;'#13#10'end;'#13#10
+      raProgram.ComponentName = 'Variable5'
+      raProgram.EventName = 'OnPrint'
+      raProgram.EventID = 32
+      raProgram.CaretPos = (
+        12
+        6)
+    end
+  end
+  object ppDesignLayers12: TppDesignLayers
+    object ppDesignLayer12: TppDesignLayer
+      UserName = 'BandLayer2'
+      LayerType = ltBanded
+      Index = 0
+    end
+  end
+  object ppParameterList3: TppParameterList
+  end
+end
