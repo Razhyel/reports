@@ -1,10 +1,10 @@
 {
     "client_name": "acouto",
-    "id_skyone": "SP142858",
+    "id_skyone": SP_CODE,
     "query_name": "titulos",
     "query_tag": "Titulos Sinteticos",
     "descriptor": "Titulos sinteticos do cliente AC Company",
-    "database": "nasajon_05095243000174",
+    "database": DATABASE_NAME,
     "query_parameters": [
         "dataini",
         "datafim"
