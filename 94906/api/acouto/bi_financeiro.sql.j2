@@ -1,0 +1,47 @@
+-- build jinja2
+select
+    t.numero as "numero",
+    case
+            when t.sinal = 0 THEN 'Receber'
+            else 'Pagar'
+    end as "tipo",
+    financas.get_situacaotitulo(t.situacao) as "situacao",
+    t.emissao as "emissao",
+    p.pessoa as "participante",
+    p.nome as "participante_razaosocial",
+    p.nomefantasia as "participante_nomefantasia",
+    c.codigo as "conta",
+    c.nome as "conta_nome",
+    coalesce(rf.valor, 0) as "valor",
+    coalesce(
+        case
+            when t.documentorateado is null then t.valorbruto
+            else round((rf.valor * (b.valor / t.valorbruto)), 2)
+        end, 0) as "valor_baixa",
+    e.codigo as "estabelecimento",
+    e.nomefantasia as "estabelecimento_nome",
+    t.vencimento as "vencimento",
+    b.data as "baixa",
+    t.datacompetencia as "competencia",
+    cc.codigo as "centrocusto",
+    cc.descricao as "centrocusto_descricao",
+    cf.codigo as "classificacao",
+    cf.descricao as "classificacao_descricao",
+    prj.codigo as "projeto",
+    prj.nome as "projeto_nome",
+    rf.discriminacao as "rateio_descricao",
+    t.observacao as "observacao"
+    
+    from financas.titulos t
+    join ns.pessoas p on (p.id = t.id_pessoa)
+    join ns.estabelecimentos e on (e.estabelecimento = t.id_estabelecimento)
+    join financas.contas c on (c.conta = t.conta)
+    left join financas.baixas b on (b.id_titulo = t.id)
+    left join financas.rateiosfinanceiros rf ON (rf.documentorateado = t.documentorateado)
+    left join financas.centroscustos cc on (cc.centrocusto = rf.centrocusto)
+    left join financas.classificacoesfinanceiras cf on (cf.classificacaofinanceira = rf.classificacaofinanceira)
+    left join financas.projetos prj on (prj.projeto = rf.projeto)
+
+    where t.datacompetencia between '{{ datainicial }}' and '{{ datafinal }}'
+    
+    order by t.emissao, t.numero;

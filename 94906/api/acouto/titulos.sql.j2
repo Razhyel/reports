@@ -1,0 +1,11 @@
+-- builds sql template from Jinja2.
+select 
+    t.numero,
+    t.emissao,
+    t.vencimento,
+    t.valor,
+    t.observacao,
+    p.nome as cliente_nome
+from financas.titulos t
+join ns.pessoas  p on (p.id = t.id_pessoa)
+where t.vencimento between '{{ dataini }}' and '{{ datafim }}'
