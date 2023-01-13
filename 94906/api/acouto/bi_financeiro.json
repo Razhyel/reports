@@ -1,10 +1,10 @@
 {
     "client_name": "acouto",
-    "id_skyone": "SP142858",
+    "id_skyone": SP_CODE,
     "query_name": "bi_financeiro",
     "query_tag": "BI Financeiro",
     "descriptor": "Endpoint para consulta ao BI Financeiro por data de competencia",
-    "database": "nasajon_05095243000174",
+    "database": DATABASE_NAME,
     "query_parameters": [
         "datainicial",
         "datafinal"
