@@ -1,7 +1,4 @@
 /*
-Autor: Andre Maia
-Data: 12/09/2022
-Cliente: Ana Couto
 View: vw_anacouto_bi_financeiro
 
 Campos:
